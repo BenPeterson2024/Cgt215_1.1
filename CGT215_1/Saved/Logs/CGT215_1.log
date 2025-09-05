@@ -4655,3 +4655,1166 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.09.04-17.46.53:656][337]LogContentValidation: Display: Validating /Script/Engine.World /Game/CGT215.CGT215
 [2025.09.04-17.46.53:656][337]LogContentValidation: Display: Validating /Game/BP_Hello.BP_Hello_C /Game/CGT215.CGT215:PersistentLevel.BP_Hello_C_UAID_C85309F63374C48B02_1892906775
 [2025.09.04-17.46.53:656][337]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_Hello.BP_Hello
+[2025.09.04-17.50.13:811][176]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 712.690002
+[2025.09.04-17.50.14:812][179]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-17.50.14:812][179]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 713.357910, Update Interval: 323.595703
+[2025.09.04-17.51.33:870][414]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.04-17.51.34:201][415]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.04-17.51.44:504][416]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-9501ms], ThreadID=18724
+[2025.09.04-17.51.46:143][416]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=13237.01
+[2025.09.04-17.51.46:143][416]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.04-17.51.46:144][416]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.04-17.51.46:163][417]LogAutomationController: Ignoring very large delta of 13.40 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.04-17.51.48:278][424]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Crusher ANC 2), InstanceID=1
+[2025.09.04-17.51.48:504][424]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.04-17.51.48:834][425]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e2a0de41-67b6-4fbe-a871-efe51bb54a43}, Name=Headphones (Crusher ANC 2)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=105.93
+[2025.09.04-17.51.48:834][425]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.04-17.51.48:836][425]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.04-17.55.43:375][129]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1043.691650
+[2025.09.04-17.55.45:049][134]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-17.55.45:049][134]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1045.031250, Update Interval: 342.371887
+[2025.09.04-17.56.52:575][334]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2025.09.04-17.56.52:577][334]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.033
+[2025.09.04-17.58.21:492][602]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-17.58.21:492][602]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-17.58.21:492][602]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0x74f1e080450 [can pipeline])
+[2025.09.04-17.58.21:492][602]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2025.09.04-17.58.21:492][602]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-17.58.21:492][602]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: libcurl info message cache 3 (Closing connection 6)
+[2025.09.04-17.58.21:492][602]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-17.58.22:825][606]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-17.58.23:159][607]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-17.58.23:159][607]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-17.58.23:159][607]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: libcurl info message cache 4 (Found bundle for host api.epicgames.dev: 0x74f1e080450 [can pipeline])
+[2025.09.04-17.58.23:159][607]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: libcurl info message cache 5 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-17.58.23:159][607]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: libcurl info message cache 6 (Closing connection 7)
+[2025.09.04-17.58.23:159][607]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-17.58.24:492][611]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-17.58.29:838][627]LogHttp: Warning: 0000074F3CA27300: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.09.04-17.58.29:838][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 0 (Found bundle for host: 0x74eae160990 [serially])
+[2025.09.04-17.58.29:838][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.09.04-17.58.29:838][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.09.04-17.58.29:838][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 3 (TLSv1.3 (IN), TLS alert, close notify (256):)
+[2025.09.04-17.58.29:838][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.09.04-17.58.29:838][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 6 (Closing connection)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 7 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5C178F36-411F-8A25-7C6B-2C89AF85814F%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0e620c5e48b35d35098638a04f048be8%7C782fa93dd84d4ce0bf766bbc29efbd90%7C9137105b-4043-4fcf-9417-19a0ba444a48&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 9 (  Trying 18.206.101.5:443...)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (18.206.101.5) port 443)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 12 (SSL reusing session ID)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 19 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 20 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 21 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 22 (ALPN: server accepted http/1.1)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 23 (Server certificate:)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 24 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 25 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 26 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 27 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 28 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 29 ( SSL certificate verify ok.)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 30 (using HTTP/1.1)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 31 (necessary data rewind wasn't possible)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 32 (Closing connection)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: 0000074F3CA27300: libcurl info message cache 33 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.09.04-17.58.29:839][627]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5C178F36-411F-8A25-7C6B-2C89AF85814F%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0e620c5e48b35d35098638a04f048be8%7C782fa93dd84d4ce0bf766bbc29efbd90%7C9137105b-4043-4fcf-9417-19a0ba444a48&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.09.04-17.58.32:511][635]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-17.58.32:511][635]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-17.58.32:511][635]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: libcurl info message cache 7 (Found bundle for host api.epicgames.dev: 0x74f1e080450 [can pipeline])
+[2025.09.04-17.58.32:511][635]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: libcurl info message cache 8 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-17.58.32:511][635]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: libcurl info message cache 9 (Closing connection 8)
+[2025.09.04-17.58.32:511][635]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-17.58.32:511][635]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF5E1BA8E-4F6A-690B-3596-898590AEFA85%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0x74f1e080450 [can pipeline])
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: libcurl info message cache 1 (Re-using existing connection! (#5) with host api.epicgames.dev)
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: libcurl info message cache 2 (Connected to api.epicgames.dev (3.219.229.87) port 443 (#5))
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: libcurl info message cache 5 (We are completely uploaded and fine)
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: libcurl info message cache 6 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: libcurl info message cache 7 (Connection died, retrying a fresh connect)
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: libcurl info message cache 8 (Closing connection 5)
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: libcurl info message cache 9 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: libcurl info message cache 10 (Issue another request to this URL: 'https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF5E1BA8E-4F6A-690B-3596-898590AEFA85%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents')
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: libcurl info message cache 11 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: 0000074F35409600: libcurl info message cache 12 (Closing connection 9)
+[2025.09.04-17.58.52:572][695]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF5E1BA8E-4F6A-690B-3596-898590AEFA85%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.04-17.59.21:243][781]LogHttp: Warning: 0000074F3CA2D700: request failed, libcurl error: 7 (Couldn't connect to server)
+[2025.09.04-17.59.21:243][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 0 (Hostname datarouter.ol.epicgames.com was found in DNS cache)
+[2025.09.04-17.59.21:243][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 1 (  Trying 18.206.101.5:443...)
+[2025.09.04-17.59.21:243][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 2 (connect to 18.206.101.5 port 443 failed: Host unreachable)
+[2025.09.04-17.59.21:243][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 3 (  Trying 52.70.193.248:443...)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 4 (connect to 52.70.193.248 port 443 failed: Host unreachable)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 5 (  Trying 3.229.29.197:443...)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 6 (connect to 3.229.29.197 port 443 failed: Host unreachable)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 7 (  Trying 18.235.151.87:443...)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 8 (connect to 18.235.151.87 port 443 failed: Host unreachable)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 9 (  Trying 52.73.208.52:443...)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 10 (connect to 52.73.208.52 port 443 failed: Host unreachable)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 11 (  Trying 3.227.122.3:443...)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 12 (connect to 3.227.122.3 port 443 failed: Host unreachable)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 13 (  Trying 54.87.74.57:443...)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 14 (connect to 54.87.74.57 port 443 failed: Host unreachable)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 15 (  Trying 34.196.136.65:443...)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 16 (connect to 34.196.136.65 port 443 failed: Host unreachable)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 17 (Failed to connect to datarouter.ol.epicgames.com port 443 after 75 ms: Couldn't connect to server)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: 0000074F3CA2D700: libcurl info message cache 18 (Closing connection)
+[2025.09.04-17.59.21:244][781]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5C178F36-411F-8A25-7C6B-2C89AF85814F%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0e620c5e48b35d35098638a04f048be8%7C782fa93dd84d4ce0bf766bbc29efbd90%7C9137105b-4043-4fcf-9417-19a0ba444a48&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.09.04-17.59.31:248][811]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF5E1BA8E-4F6A-690B-3596-898590AEFA85%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-17.59.31:248][811]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-17.59.31:248][811]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-17.59.31:248][811]LogEOSSDK: Warning: LogHttp: 0000074F3540D200: libcurl info message cache 1 (Closing connection 10)
+[2025.09.04-17.59.31:248][811]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF5E1BA8E-4F6A-690B-3596-898590AEFA85%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.04-18.00.07:950][921]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.04-18.00.09:877][926]Could not fetch the local adapter addresses
+[2025.09.04-18.00.09:877][926]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.04-18.00.09:949][927]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.04-18.00.12:103][932]LogUdpMessaging: Display: Added local interface '100.69.7.197' to multicast group '230.0.0.1:6666'
+[2025.09.04-18.00.32:141][993]LogEOSSDK: Warning: LogHttp: 0000074F35401E00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF5E1BA8E-4F6A-690B-3596-898590AEFA85%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-18.00.32:141][993]LogEOSSDK: Warning: LogHttp: 0000074F35401E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-18.00.32:141][993]LogEOSSDK: Warning: LogHttp: 0000074F35401E00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-18.00.32:141][993]LogEOSSDK: Warning: LogHttp: 0000074F35401E00: libcurl info message cache 1 (Closing connection 11)
+[2025.09.04-18.00.32:141][993]LogEOSSDK: Warning: LogHttp: 0000074F35408A00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-18.00.32:141][993]LogEOSSDK: Warning: LogHttp: 0000074F35408A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-18.00.32:141][993]LogEOSSDK: Warning: LogHttp: 0000074F35408A00: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0x74f1e080e10 [serially])
+[2025.09.04-18.00.32:141][993]LogEOSSDK: Warning: LogHttp: 0000074F35408A00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-18.00.32:141][993]LogEOSSDK: Warning: LogHttp: 0000074F35408A00: libcurl info message cache 2 (Closing connection 12)
+[2025.09.04-18.00.32:141][993]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF5E1BA8E-4F6A-690B-3596-898590AEFA85%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.04-18.00.32:141][993]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-18.00.33:142][996]LogHttp: Warning: 0000074F3CA21E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-18.00.33:142][996]LogHttp: Warning: 0000074F3CA21E00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2025.09.04-18.00.33:142][996]LogHttp: Warning: 0000074F3CA21E00: libcurl info message cache 1 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.09.04-18.00.33:142][996]LogHttp: Warning: 0000074F3CA21E00: libcurl info message cache 2 (Closing connection)
+[2025.09.04-18.00.33:142][996]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-18.00.33:142][996]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5C178F36-411F-8A25-7C6B-2C89AF85814F%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0e620c5e48b35d35098638a04f048be8%7C782fa93dd84d4ce0bf766bbc29efbd90%7C9137105b-4043-4fcf-9417-19a0ba444a48&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.09.04-18.00.45:500][ 33]LogEOSSDK: Warning: LogHttp: 0000074F35408A00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-18.00.45:500][ 33]LogEOSSDK: Warning: LogHttp: 0000074F35408A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-18.00.45:500][ 33]LogEOSSDK: Warning: LogHttp: 0000074F35408A00: libcurl info message cache 3 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-18.00.45:500][ 33]LogEOSSDK: Warning: LogHttp: 0000074F35408A00: libcurl info message cache 4 (Closing connection 13)
+[2025.09.04-18.00.45:500][ 33]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-18.00.46:832][ 37]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-18.00.51:165][ 50]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.04-18.00.51:165][ 50]LogEOSSDK: Warning: LogHttp: 0000074F35408A00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-18.00.51:165][ 50]LogEOSSDK: Warning: LogHttp: 0000074F35408A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-18.00.51:165][ 50]LogEOSSDK: Warning: LogHttp: 0000074F35408A00: libcurl info message cache 5 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-18.00.51:165][ 50]LogEOSSDK: Warning: LogHttp: 0000074F35408A00: libcurl info message cache 6 (Closing connection 14)
+[2025.09.04-18.00.51:165][ 50]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-18.00.51:165][ 50]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.09.04-18.00.53:075][ 55]Could not fetch the local adapter addresses
+[2025.09.04-18.00.53:075][ 55]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.04-18.00.53:166][ 56]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.04-18.00.55:517][ 61]LogUdpMessaging: Display: Added local interface '100.69.37.125' to multicast group '230.0.0.1:6666'
+[2025.09.04-18.01.33:242][175]LogHttp: Warning: 0000074F3CA23C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-18.01.33:242][175]LogHttp: Warning: 0000074F3CA23C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.09.04-18.01.33:242][175]LogHttp: Warning: 0000074F3CA23C00: libcurl info message cache 1 (Closing connection)
+[2025.09.04-18.01.33:242][175]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5C178F36-411F-8A25-7C6B-2C89AF85814F%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0e620c5e48b35d35098638a04f048be8%7C782fa93dd84d4ce0bf766bbc29efbd90%7C9137105b-4043-4fcf-9417-19a0ba444a48&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.09.04-18.01.42:245][202]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1402.560913
+[2025.09.04-18.02.03:267][265]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-18.02.03:267][265]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1423.247070, Update Interval: 309.651794
+[2025.09.04-18.06.53:019][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.09.04-18.06.53:021][132]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.024
+[2025.09.04-18.07.43:458][285]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1763.772095
+[2025.09.04-18.07.44:460][288]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-18.07.44:460][288]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1764.440063, Update Interval: 302.016052
+[2025.09.04-18.11.47:460][ 16]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.04-18.11.47:613][ 16]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.04-18.11.47:943][ 17]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=225.57
+[2025.09.04-18.11.47:943][ 17]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.04-18.11.47:945][ 17]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.04-21.13.22:267][ 23]LogAutomationController: Ignoring very large delta of 10893.82 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.04-21.13.22:267][ 23]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.04-21.13.22:430][ 23]LogHttp: Warning: 0000074F3B8C6900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-21.13.22:430][ 23]LogHttp: Warning: 0000074F3B8C6900: libcurl info message cache 0 (Too old connection (10921 seconds idle), disconnect it)
+[2025.09.04-21.13.22:430][ 23]LogHttp: Warning: 0000074F3B8C6900: libcurl info message cache 1 (Connection 7 seems to be dead)
+[2025.09.04-21.13.22:430][ 23]LogHttp: Warning: 0000074F3B8C6900: libcurl info message cache 2 (Closing connection)
+[2025.09.04-21.13.22:430][ 23]LogHttp: Warning: 0000074F3B8C6900: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.09.04-21.13.22:430][ 23]LogHttp: Warning: 0000074F3B8C6900: libcurl info message cache 4 (Send failure: Connection was reset)
+[2025.09.04-21.13.22:430][ 23]LogHttp: Warning: 0000074F3B8C6900: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.09.04-21.13.22:430][ 23]LogHttp: Warning: 0000074F3B8C6900: libcurl info message cache 6 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.09.04-21.13.22:430][ 23]LogHttp: Warning: 0000074F3B8C6900: libcurl info message cache 7 (Closing connection)
+[2025.09.04-21.13.22:430][ 23]LogEOSSDK: Warning: LogHttp: 0000074F3C9EDE00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF5E1BA8E-4F6A-690B-3596-898590AEFA85%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-21.13.22:430][ 23]LogEOSSDK: Warning: LogHttp: 0000074F3C9EDE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-21.13.22:430][ 23]LogEOSSDK: Warning: LogHttp: 0000074F3C9EDE00: libcurl info message cache 0 (Connection 17 seems to be dead!)
+[2025.09.04-21.13.22:430][ 23]LogEOSSDK: Warning: LogHttp: 0000074F3C9EDE00: libcurl info message cache 1 (Closing connection 17)
+[2025.09.04-21.13.22:430][ 23]LogEOSSDK: Warning: LogHttp: 0000074F3C9EDE00: libcurl info message cache 2 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2025.09.04-21.13.22:430][ 23]LogEOSSDK: Warning: LogHttp: 0000074F3C9EDE00: libcurl info message cache 3 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-21.13.22:430][ 23]LogEOSSDK: Warning: LogHttp: 0000074F3C9EDE00: libcurl info message cache 4 (Closing connection 18)
+[2025.09.04-21.13.22:430][ 23]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF5E1BA8E-4F6A-690B-3596-898590AEFA85%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.04-21.13.22:430][ 23]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5C178F36-411F-8A25-7C6B-2C89AF85814F%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0e620c5e48b35d35098638a04f048be8%7C782fa93dd84d4ce0bf766bbc29efbd90%7C9137105b-4043-4fcf-9417-19a0ba444a48&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.09.04-21.13.22:467][ 24]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-21.13.22:467][ 24]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-21.13.22:467][ 24]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-21.13.22:467][ 24]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: libcurl info message cache 1 (Closing connection 19)
+[2025.09.04-21.13.22:467][ 24]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-21.13.22:467][ 24]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-21.13.22:467][ 24]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0x74f1e080e70 [serially])
+[2025.09.04-21.13.22:467][ 24]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-21.13.22:467][ 24]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: libcurl info message cache 2 (Closing connection 20)
+[2025.09.04-21.13.22:467][ 24]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.04-21.13.22:467][ 24]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-21.13.23:738][ 25]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.04-21.13.23:738][ 25]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-21.13.23:868][ 25]Could not fetch the local adapter addresses
+[2025.09.04-21.13.23:868][ 25]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.04-21.13.23:994][ 26]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.04-21.13.23:994][ 26]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-21.13.23:994][ 26]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-21.13.23:994][ 26]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-21.13.23:994][ 26]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: libcurl info message cache 3 (Closing connection 21)
+[2025.09.04-21.13.23:994][ 26]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-21.13.23:994][ 26]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-21.13.23:994][ 26]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: libcurl info message cache 3 (Found bundle for host api.epicgames.dev: 0x74f1e080d80 [serially])
+[2025.09.04-21.13.23:994][ 26]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-21.13.23:994][ 26]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: libcurl info message cache 5 (Closing connection 22)
+[2025.09.04-21.13.23:994][ 26]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.04-21.13.23:994][ 26]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-21.13.24:798][ 28]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Crusher ANC 2), InstanceID=1
+[2025.09.04-21.13.24:938][ 28]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.04-21.13.25:271][ 29]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e2a0de41-67b6-4fbe-a871-efe51bb54a43}, Name=Headphones (Crusher ANC 2)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=98.37
+[2025.09.04-21.13.25:271][ 29]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.04-21.13.25:272][ 29]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.04-21.13.25:276][ 30]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.04-21.13.25:276][ 30]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-21.13.25:390][ 30]Could not fetch the local adapter addresses
+[2025.09.04-21.13.25:390][ 30]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.04-21.13.25:605][ 31]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.04-21.13.25:605][ 31]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-21.13.25:605][ 31]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-21.13.25:605][ 31]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-21.13.25:605][ 31]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: libcurl info message cache 5 (Closing connection 23)
+[2025.09.04-21.13.25:605][ 31]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-21.13.25:605][ 31]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-21.13.25:605][ 31]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: libcurl info message cache 6 (Found bundle for host api.epicgames.dev: 0x74f1e080270 [serially])
+[2025.09.04-21.13.25:605][ 31]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: libcurl info message cache 7 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-21.13.25:605][ 31]LogEOSSDK: Warning: LogHttp: 0000074F3C9E3C00: libcurl info message cache 8 (Closing connection 24)
+[2025.09.04-21.13.25:605][ 31]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.04-21.13.25:605][ 31]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.04-21.13.25:605][ 31]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.09.04-21.13.26:607][ 34]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.04-21.13.26:940][ 35]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.04-21.13.26:940][ 35]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.04-21.13.26:940][ 35]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2025.09.04-21.13.26:940][ 35]LogEOSSDK: Warning: LogHttp: 0000074F3C9EF600: libcurl info message cache 7 (Closing connection 25)
+[2025.09.04-21.13.26:940][ 35]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.04-21.13.28:210][ 36]LogUdpMessaging: Display: Added local interface '100.69.37.125' to multicast group '230.0.0.1:6666'
+[2025.09.04-21.13.28:223][ 37]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.04-21.13.28:557][ 38]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.04-21.13.33:272][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.09.04-21.13.33:274][ 47]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.04-21.14.01:721][134]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12942.868164
+[2025.09.04-21.14.02:722][137]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-21.14.02:722][137]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12943.535156, Update Interval: 313.857849
+[2025.09.04-21.20.09:262][236]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13310.397461
+[2025.09.04-21.20.10:262][239]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-21.20.10:262][239]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13311.060547, Update Interval: 356.244385
+[2025.09.04-21.23.34:182][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.09.04-21.23.34:184][848]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.022
+[2025.09.04-21.26.37:766][400]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13698.889648
+[2025.09.04-21.26.38:768][403]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-21.26.38:768][403]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13699.555664, Update Interval: 317.847839
+[2025.09.04-21.32.43:648][497]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14064.780273
+[2025.09.04-21.32.44:645][500]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-21.32.44:646][500]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14065.444336, Update Interval: 313.090607
+[2025.09.04-21.33.34:776][648]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.09.04-21.33.34:777][648]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.023
+[2025.09.04-21.38.55:018][610]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14436.164062
+[2025.09.04-21.38.56:018][613]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-21.38.56:018][613]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14436.831055, Update Interval: 334.053162
+[2025.09.04-21.41.46:744][125]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.290 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.04-21.43.35:591][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.09.04-21.43.35:592][449]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.021
+[2025.09.04-21.45.26:133][782]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14827.281250
+[2025.09.04-21.45.27:134][785]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-21.45.27:134][785]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14827.948242, Update Interval: 344.979401
+[2025.09.04-21.51.58:694][959]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15219.840820
+[2025.09.04-21.51.59:695][962]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-21.51.59:695][962]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15220.507812, Update Interval: 358.985565
+[2025.09.04-21.53.35:973][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.09.04-21.53.35:974][249]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.020
+[2025.09.04-21.58.37:641][154]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15618.785156
+[2025.09.04-21.58.38:642][157]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-21.58.38:642][157]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15619.449219, Update Interval: 343.210541
+[2025.09.04-22.03.36:987][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.09.04-22.03.36:990][ 48]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.029
+[2025.09.04-22.05.00:811][300]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16001.962891
+[2025.09.04-22.05.01:812][303]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-22.05.01:812][303]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16002.631836, Update Interval: 338.812225
+[2025.09.04-22.11.23:360][447]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16384.529297
+[2025.09.04-22.11.24:361][450]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-22.11.24:361][450]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16385.197266, Update Interval: 343.227020
+[2025.09.04-22.13.37:343][847]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.09.04-22.13.37:345][847]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.023
+[2025.09.04-22.17.51:214][610]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16772.423828
+[2025.09.04-22.17.52:219][613]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-22.17.52:219][613]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16773.093750, Update Interval: 351.633667
+[2025.09.04-22.23.38:256][648]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.09.04-22.23.38:258][648]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.019
+[2025.09.04-22.24.21:719][780]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17162.974609
+[2025.09.04-22.24.22:722][783]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-22.24.22:722][783]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17163.640625, Update Interval: 319.975586
+[2025.09.04-22.30.39:619][913]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17540.929688
+[2025.09.04-22.30.40:621][916]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-22.30.40:621][916]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17541.599609, Update Interval: 340.782501
+[2025.09.04-22.33.38:826][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.09.04-22.33.38:827][448]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.035
+[2025.09.04-22.36.51:699][ 28]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17913.056641
+[2025.09.04-22.36.52:697][ 31]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-22.36.52:697][ 31]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17913.724609, Update Interval: 322.773529
+[2025.09.04-22.41.46:681][912]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.227 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.04-22.43.14:862][177]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18296.265625
+[2025.09.04-22.43.15:861][180]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-22.43.15:861][180]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18296.933594, Update Interval: 323.588379
+[2025.09.04-22.43.39:534][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.09.04-22.43.39:535][249]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.021
+[2025.09.04-22.49.37:881][324]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18679.330078
+[2025.09.04-22.49.38:881][327]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-22.49.38:881][327]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18679.996094, Update Interval: 329.028595
+[2025.09.04-22.53.40:754][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.09.04-22.53.40:757][ 50]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.024
+[2025.09.04-22.56.00:980][472]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19062.462891
+[2025.09.04-22.56.01:983][475]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-22.56.01:983][475]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19063.130859, Update Interval: 349.923401
+[2025.09.04-23.02.35:483][655]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19457.025391
+[2025.09.04-23.02.36:483][658]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-23.02.36:484][658]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19457.693359, Update Interval: 306.214783
+[2025.09.04-23.03.41:625][851]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.09.04-23.03.41:627][851]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.023
+[2025.09.04-23.08.33:204][727]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19814.798828
+[2025.09.04-23.08.34:205][730]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-23.08.34:205][730]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19815.466797, Update Interval: 354.924164
+[2025.09.04-23.13.42:732][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.09.04-23.13.42:734][651]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.025
+[2025.09.04-23.15.10:897][916]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20212.542969
+[2025.09.04-23.15.11:899][919]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-23.15.11:899][919]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20213.210938, Update Interval: 341.461853
+[2025.09.04-23.21.38:853][ 79]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20600.564453
+[2025.09.04-23.21.39:853][ 82]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-23.21.39:853][ 82]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20601.234375, Update Interval: 320.297852
+[2025.09.04-23.23.45:111][448]LogUObjectHash: Compacting FUObjectHashTables data took   7.05ms
+[2025.09.04-23.23.45:121][448]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.125
+[2025.09.04-23.23.45:751][449]LogAutomationController: Ignoring very large delta of 2.91 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.04-23.27.43:117][161]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20964.820312
+[2025.09.04-23.27.44:122][164]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-23.27.44:123][164]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20965.486328, Update Interval: 308.124634
+[2025.09.04-23.33.47:761][247]LogUObjectHash: Compacting FUObjectHashTables data took   7.06ms
+[2025.09.04-23.33.47:771][247]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.111
+[2025.09.04-23.33.47:994][248]LogAutomationController: Ignoring very large delta of 2.11 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.04-23.33.51:802][260]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21333.519531
+[2025.09.04-23.33.52:851][263]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.04-23.33.52:852][263]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21334.115234, Update Interval: 348.526245
+[2025.09.04-23.34.56:208][453]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2025.09.04-23.34.56:489][453]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.04-23.34.57:509][456]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e2a0de41-67b6-4fbe-a871-efe51bb54a43}, Name=Headphones (Crusher ANC 2)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=679.80
+[2025.09.04-23.34.57:509][456]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.04-23.34.57:537][456]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.04-23.35.32:451][553]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.04-23.35.36:448][553]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2025.09.04-23.35.41:869][553]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 8 Seconds] waiting for h/w. InstanceID=1
+[2025.09.05-00.13.45:611][553]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.05-00.13.46:847][553]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.05-00.13.46:853][554]LogAutomationController: Ignoring very large delta of 2299.01 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.05-00.13.47:128][554]Could not fetch the local adapter addresses
+[2025.09.05-00.13.47:128][554]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.05-00.13.49:001][554]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=2124.46
+[2025.09.05-00.13.49:001][554]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.05-00.13.49:013][554]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.05-00.13.49:794][554]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.05-00.13.50:019][555]LogAutomationController: Ignoring very large delta of 3.17 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.05-00.13.50:024][555]LogHttp: Warning: 0000074F3FA36E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.05-00.13.50:024][555]LogHttp: Warning: 0000074F3FA36E00: libcurl info message cache 0 (Too old connection (2309 seconds idle), disconnect it)
+[2025.09.05-00.13.50:024][555]LogHttp: Warning: 0000074F3FA36E00: libcurl info message cache 1 (Connection 11 seems to be dead)
+[2025.09.05-00.13.50:024][555]LogHttp: Warning: 0000074F3FA36E00: libcurl info message cache 2 (Closing connection)
+[2025.09.05-00.13.50:024][555]LogHttp: Warning: 0000074F3FA36E00: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.09.05-00.13.50:024][555]LogHttp: Warning: 0000074F3FA36E00: libcurl info message cache 4 (Send failure: Connection was reset)
+[2025.09.05-00.13.50:024][555]LogHttp: Warning: 0000074F3FA36E00: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.09.05-00.13.50:024][555]LogHttp: Warning: 0000074F3FA36E00: libcurl info message cache 6 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.09.05-00.13.50:024][555]LogHttp: Warning: 0000074F3FA36E00: libcurl info message cache 7 (Closing connection)
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9E0000: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF5E1BA8E-4F6A-690B-3596-898590AEFA85%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9E0000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9E0000: libcurl info message cache 0 (Connection 73 seems to be dead!)
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9E0000: libcurl info message cache 1 (Closing connection 73)
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9E0000: libcurl info message cache 2 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9E0000: libcurl info message cache 3 (Could not resolve host: api.epicgames.dev)
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9E0000: libcurl info message cache 4 (Closing connection 74)
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9EEA00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9EEA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9EEA00: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0x74f1e080870 [serially])
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9EEA00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9EEA00: libcurl info message cache 2 (Closing connection 76)
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9E1E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9E1E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9E1E00: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0x74f1e080870 [serially])
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9E1E00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: 0000074F3C9E1E00: libcurl info message cache 2 (Closing connection 75)
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF5E1BA8E-4F6A-690B-3596-898590AEFA85%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.05-00.13.50:024][555]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.05-00.13.50:024][555]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5C178F36-411F-8A25-7C6B-2C89AF85814F%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0e620c5e48b35d35098638a04f048be8%7C782fa93dd84d4ce0bf766bbc29efbd90%7C9137105b-4043-4fcf-9417-19a0ba444a48&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.09.05-00.13.51:041][559]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.05-00.13.51:042][559]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.05-00.13.51:948][559]LogUdpMessaging: Display: Added local interface '100.69.37.125' to multicast group '230.0.0.1:6666'
+[2025.09.05-00.13.52:069][560]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.05-00.13.52:069][560]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.05-00.13.59:048][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.09.05-00.13.59:050][573]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.022
+[2025.09.05-00.14.01:434][574]LogAutomationController: Ignoring very large delta of 4.63 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.05-00.14.22:143][628]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=SAMSUNG (NVIDIA High Definition Audio), InstanceID=1
+[2025.09.05-00.14.22:474][628]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.05-00.14.22:494][629]LogAutomationController: Ignoring very large delta of 2.07 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.05-00.14.22:495][629]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23767.212891
+[2025.09.05-00.14.22:958][629]LogViewport: Scene viewport resized to 1520x822, mode Windowed.
+[2025.09.05-00.14.23:385][629]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7a26fd56-f251-435e-b56d-8b9face42c19}, Name=SAMSUNG (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=466.00
+[2025.09.05-00.14.23:385][629]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.05-00.14.23:388][629]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.05-00.14.23:404][629]LogViewport: Scene viewport resized to 1526x892, mode Windowed.
+[2025.09.05-00.14.24:059][632]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-00.14.24:059][632]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23768.468750, Update Interval: 308.747223
+[2025.09.05-00.14.30:975][652]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.05-00.14.31:356][652]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.05-00.14.33:769][654]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=SAMSUNG (NVIDIA High Definition Audio), InstanceID=1
+[2025.09.05-00.14.33:863][654]LogViewport: Scene viewport resized to 1526x868, mode Windowed.
+[2025.09.05-00.14.34:336][654]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=2455.06
+[2025.09.05-00.14.34:336][654]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.05-00.14.34:339][654]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.05-00.14.34:346][655]LogAutomationController: Ignoring very large delta of 2.20 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.05-00.14.34:490][655]LogViewport: Scene viewport resized to 1526x892, mode Windowed.
+[2025.09.05-00.14.34:664][655]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.05-00.14.34:995][656]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7a26fd56-f251-435e-b56d-8b9face42c19}, Name=SAMSUNG (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=106.63
+[2025.09.05-00.14.34:995][656]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.05-00.14.34:997][656]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.05-00.19.48:238][595]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.153 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-00.20.23:360][701]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24128.189453
+[2025.09.05-00.20.24:359][704]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-00.20.24:359][704]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24128.855469, Update Interval: 344.384277
+[2025.09.05-00.24.01:804][355]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.09.05-00.24.01:807][355]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.019
+[2025.09.05-00.27.01:091][894]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24526.082031
+[2025.09.05-00.27.02:091][897]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-00.27.02:091][897]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24526.750000, Update Interval: 343.732422
+[2025.09.05-00.33.32:480][ 68]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24917.628906
+[2025.09.05-00.33.33:481][ 71]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-00.33.33:481][ 71]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24918.294922, Update Interval: 348.150879
+[2025.09.05-00.34.02:225][156]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.09.05-00.34.02:228][156]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-00.40.19:882][290]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25325.220703
+[2025.09.05-00.40.20:882][293]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-00.40.20:882][293]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25325.888672, Update Interval: 325.159454
+[2025.09.05-00.44.02:623][957]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.09.05-00.44.02:625][957]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.017
+[2025.09.05-00.46.43:599][441]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25709.162109
+[2025.09.05-00.46.44:599][444]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-00.46.44:599][444]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25709.830078, Update Interval: 314.853973
+[2025.09.05-00.52.34:657][494]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26060.453125
+[2025.09.05-00.52.35:657][497]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-00.52.35:657][497]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26061.119141, Update Interval: 325.080719
+[2025.09.05-00.54.03:069][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.09.05-00.54.03:072][758]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.017
+[2025.09.05-00.58.30:178][560]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.05-00.58.30:364][560]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.05-00.58.30:699][561]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=275.15
+[2025.09.05-00.58.30:699][561]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.05-00.58.30:702][561]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.05-01.59.05:291][564]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.05-01.59.05:494][564]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30052.328125
+[2025.09.05-01.59.06:900][565]LogAutomationController: Ignoring very large delta of 3636.35 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.05-01.59.06:901][565]LogEOSSDK: Warning: LogHttp: 0000074F3FE7F600: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF5E1BA8E-4F6A-690B-3596-898590AEFA85%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.05-01.59.06:901][565]LogEOSSDK: Warning: LogHttp: 0000074F3FE7F600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.05-01.59.06:901][565]LogEOSSDK: Warning: LogHttp: 0000074F3FE7F600: libcurl info message cache 0 (Connection 86 seems to be dead!)
+[2025.09.05-01.59.06:901][565]LogEOSSDK: Warning: LogHttp: 0000074F3FE7F600: libcurl info message cache 1 (Closing connection 86)
+[2025.09.05-01.59.06:901][565]LogEOSSDK: Warning: LogHttp: 0000074F3FE7F600: libcurl info message cache 2 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2025.09.05-01.59.06:901][565]LogEOSSDK: Warning: LogHttp: 0000074F3FE7F600: libcurl info message cache 3 (Could not resolve host: api.epicgames.dev)
+[2025.09.05-01.59.06:901][565]LogEOSSDK: Warning: LogHttp: 0000074F3FE7F600: libcurl info message cache 4 (Closing connection 87)
+[2025.09.05-01.59.06:901][565]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF5E1BA8E-4F6A-690B-3596-898590AEFA85%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.05-01.59.06:995][565]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=SAMSUNG (NVIDIA High Definition Audio), InstanceID=1
+[2025.09.05-01.59.07:132][565]Could not fetch the local adapter addresses
+[2025.09.05-01.59.07:132][565]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.05-01.59.07:239][565]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.05-01.59.07:368][565]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.05-01.59.07:494][566]LogHttp: Warning: 0000074F3E861400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.05-01.59.07:494][566]LogHttp: Warning: 0000074F3E861400: libcurl info message cache 0 (Too old connection (3643 seconds idle), disconnect it)
+[2025.09.05-01.59.07:494][566]LogHttp: Warning: 0000074F3E861400: libcurl info message cache 1 (Connection 14 seems to be dead)
+[2025.09.05-01.59.07:494][566]LogHttp: Warning: 0000074F3E861400: libcurl info message cache 2 (Closing connection)
+[2025.09.05-01.59.07:494][566]LogHttp: Warning: 0000074F3E861400: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.09.05-01.59.07:494][566]LogHttp: Warning: 0000074F3E861400: libcurl info message cache 4 (Send failure: Connection was reset)
+[2025.09.05-01.59.07:494][566]LogHttp: Warning: 0000074F3E861400: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.09.05-01.59.07:494][566]LogHttp: Warning: 0000074F3E861400: libcurl info message cache 6 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.09.05-01.59.07:494][566]LogHttp: Warning: 0000074F3E861400: libcurl info message cache 7 (Closing connection)
+[2025.09.05-01.59.07:494][566]LogEOSSDK: Warning: LogHttp: 0000074F3FE76000: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.05-01.59.07:494][566]LogEOSSDK: Warning: LogHttp: 0000074F3FE76000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.05-01.59.07:494][566]LogEOSSDK: Warning: LogHttp: 0000074F3FE76000: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.09.05-01.59.07:494][566]LogEOSSDK: Warning: LogHttp: 0000074F3FE76000: libcurl info message cache 1 (Closing connection 88)
+[2025.09.05-01.59.07:494][566]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.05-01.59.07:494][566]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.05-01.59.07:494][566]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0x74f1e0806f0 [serially])
+[2025.09.05-01.59.07:494][566]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.09.05-01.59.07:494][566]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: libcurl info message cache 2 (Closing connection 89)
+[2025.09.05-01.59.07:494][566]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.05-01.59.07:494][566]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.05-01.59.07:494][566]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5C178F36-411F-8A25-7C6B-2C89AF85814F%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0e620c5e48b35d35098638a04f048be8%7C782fa93dd84d4ce0bf766bbc29efbd90%7C9137105b-4043-4fcf-9417-19a0ba444a48&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.09.05-01.59.07:511][566]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7a26fd56-f251-435e-b56d-8b9face42c19}, Name=SAMSUNG (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=185.97
+[2025.09.05-01.59.07:512][566]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.05-01.59.07:514][566]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.05-01.59.08:511][570]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.05-01.59.08:512][570]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.05-01.59.08:838][571]LogEOSSDK: Warning: LogHttp: 0000074F3FE76000: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.05-01.59.08:838][571]LogEOSSDK: Warning: LogHttp: 0000074F3FE76000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.05-01.59.08:838][571]LogEOSSDK: Warning: LogHttp: 0000074F3FE76000: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2025.09.05-01.59.08:838][571]LogEOSSDK: Warning: LogHttp: 0000074F3FE76000: libcurl info message cache 3 (Closing connection 90)
+[2025.09.05-01.59.08:838][571]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.05-01.59.08:838][571]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.05-01.59.08:838][571]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: libcurl info message cache 3 (Found bundle for host api.epicgames.dev: 0x74f1e0805d0 [serially])
+[2025.09.05-01.59.08:838][571]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.09.05-01.59.08:838][571]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: libcurl info message cache 5 (Closing connection 91)
+[2025.09.05-01.59.08:838][571]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.05-01.59.08:838][571]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.05-01.59.09:360][572]Could not fetch the local adapter addresses
+[2025.09.05-01.59.09:360][572]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.05-01.59.09:501][573]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.05-01.59.10:168][575]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.05-01.59.10:168][575]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.05-01.59.10:503][576]LogEOSSDK: Warning: LogHttp: 0000074F3FE76000: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.05-01.59.10:503][576]LogEOSSDK: Warning: LogHttp: 0000074F3FE76000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.05-01.59.10:503][576]LogEOSSDK: Warning: LogHttp: 0000074F3FE76000: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.09.05-01.59.10:503][576]LogEOSSDK: Warning: LogHttp: 0000074F3FE76000: libcurl info message cache 5 (Closing connection 92)
+[2025.09.05-01.59.10:503][576]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.05-01.59.10:503][576]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.05-01.59.10:503][576]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: libcurl info message cache 6 (Found bundle for host api.epicgames.dev: 0x74f1e080d20 [serially])
+[2025.09.05-01.59.10:503][576]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: libcurl info message cache 7 (Could not resolve host: api.epicgames.dev)
+[2025.09.05-01.59.10:503][576]LogEOSSDK: Warning: LogHttp: 0000074F3FE7AE00: libcurl info message cache 8 (Closing connection 93)
+[2025.09.05-01.59.10:503][576]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.05-01.59.10:503][576]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=B1C85D7342E7DD73747FB388C0101E84
+[2025.09.05-01.59.10:503][576]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.09.05-01.59.12:179][578]LogUdpMessaging: Display: Added local interface '100.69.37.125' to multicast group '230.0.0.1:6666'
+[2025.09.05-01.59.12:189][579]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.05-01.59.12:524][580]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.05-01.59.13:856][584]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-01.59.13:857][584]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30060.355469, Update Interval: 323.967407
+[2025.09.05-01.59.15:592][588]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.09.05-01.59.15:593][588]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-02.00.01:156][725]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.05-02.00.01:518][725]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.05-02.00.01:892][727]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=188.51
+[2025.09.05-02.00.01:892][727]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.05-02.00.01:893][727]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.05-02.05.27:615][705]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30434.691406
+[2025.09.05-02.05.28:616][708]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-02.05.28:616][708]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30435.359375, Update Interval: 317.690369
+[2025.09.05-02.09.16:050][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.09.05-02.09.16:051][389]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.016
+[2025.09.05-02.11.35:997][810]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30803.238281
+[2025.09.05-02.11.36:997][813]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-02.11.36:997][813]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30803.904297, Update Interval: 313.887146
+[2025.09.05-02.17.50:047][932]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 31177.494141
+[2025.09.05-02.17.51:048][935]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-02.17.51:048][935]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 31178.160156, Update Interval: 324.721832
+[2025.09.05-02.19.16:460][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.09.05-02.19.16:462][190]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-02.20.19:164][379]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.137 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-02.23.49:098][  9]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 31536.751953
+[2025.09.05-02.23.50:097][ 12]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-02.23.50:099][ 12]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 31537.419922, Update Interval: 325.608093
+[2025.09.05-02.29.16:893][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.09.05-02.29.16:894][991]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-02.29.56:494][111]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 31904.322266
+[2025.09.05-02.29.57:493][114]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-02.29.57:493][114]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 31904.990234, Update Interval: 343.483398
+[2025.09.05-02.36.26:884][282]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 32294.957031
+[2025.09.05-02.36.27:885][285]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-02.36.27:885][285]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 32295.625000, Update Interval: 349.952698
+[2025.09.05-02.39.17:304][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.09.05-02.39.17:306][792]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-02.42.48:280][426]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 32676.587891
+[2025.09.05-02.42.49:280][429]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-02.42.49:280][429]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 32677.253906, Update Interval: 306.866669
+[2025.09.05-02.48.48:663][507]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 33036.414062
+[2025.09.05-02.48.49:664][510]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-02.48.49:664][510]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 33037.078125, Update Interval: 342.710663
+[2025.09.05-02.49.17:739][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.09.05-02.49.17:740][593]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-02.55.21:720][686]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 33428.570312
+[2025.09.05-02.55.22:720][689]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-02.55.22:720][689]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 33429.234375, Update Interval: 354.742889
+[2025.09.05-02.59.18:153][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-02.59.18:155][394]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.015
+[2025.09.05-03.01.54:441][864]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 33820.437500
+[2025.09.05-03.01.55:440][867]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-03.01.55:440][867]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 33821.101562, Update Interval: 342.113708
+[2025.09.05-03.08.24:830][ 35]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 34209.964844
+[2025.09.05-03.08.25:830][ 38]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-03.08.25:830][ 38]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 34210.628906, Update Interval: 346.068909
+[2025.09.05-03.09.18:901][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.09.05-03.09.18:903][196]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.015
+[2025.09.05-03.15.06:935][241]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 34611.171875
+[2025.09.05-03.15.07:935][244]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-03.15.07:935][244]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 34611.835938, Update Interval: 352.963043
+[2025.09.05-03.19.19:361][997]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.09.05-03.19.19:362][997]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-03.20.19:179][177]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.152 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-03.21.52:323][457]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35015.675781
+[2025.09.05-03.21.53:324][460]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-03.21.53:324][460]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35016.339844, Update Interval: 331.158173
+[2025.09.05-03.28.01:374][564]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35383.882812
+[2025.09.05-03.28.02:375][567]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-03.28.02:375][567]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35384.546875, Update Interval: 351.825928
+[2025.09.05-03.29.20:128][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.09.05-03.29.20:129][799]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.015
+[2025.09.05-03.34.43:439][770]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35785.113281
+[2025.09.05-03.34.44:440][773]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-03.34.44:440][773]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35785.781250, Update Interval: 313.390900
+[2025.09.05-03.39.20:874][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.09.05-03.39.20:875][601]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-03.40.34:487][823]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 36135.402344
+[2025.09.05-03.40.35:488][826]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-03.40.35:488][826]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 36136.066406, Update Interval: 317.659241
+[2025.09.05-03.46.24:875][874]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 36485.003906
+[2025.09.05-03.46.25:875][877]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-03.46.25:875][877]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 36485.667969, Update Interval: 359.835205
+[2025.09.05-03.49.21:303][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.09.05-03.49.21:304][402]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-03.53.22:940][128]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 36902.183594
+[2025.09.05-03.53.23:939][131]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-03.53.23:939][131]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 36902.851562, Update Interval: 342.234558
+[2025.09.05-03.59.21:725][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-03.59.21:726][203]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.036
+[2025.09.05-04.00.05:321][335]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 37303.683594
+[2025.09.05-04.00.06:321][338]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-04.00.06:321][338]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 37304.351562, Update Interval: 350.080872
+[2025.09.05-04.06.48:705][545]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 37706.179688
+[2025.09.05-04.06.49:704][548]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-04.06.49:704][548]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 37706.843750, Update Interval: 304.740753
+[2025.09.05-04.09.22:118][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.09.05-04.09.22:120][  4]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-04.12.48:748][625]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 38065.429688
+[2025.09.05-04.12.49:749][628]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-04.12.49:749][628]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 38066.093750, Update Interval: 302.706390
+[2025.09.05-04.18.35:801][666]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 38411.671875
+[2025.09.05-04.18.36:800][669]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-04.18.36:800][669]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 38412.339844, Update Interval: 304.960480
+[2025.09.05-04.19.22:548][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.09.05-04.19.22:550][805]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-04.20.20:123][978]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.095 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-04.24.33:186][738]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 38768.281250
+[2025.09.05-04.24.34:187][741]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-04.24.34:187][741]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 38768.949219, Update Interval: 328.737457
+[2025.09.05-04.29.22:962][606]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.09.05-04.29.22:964][606]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-04.31.02:244][905]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 39156.480469
+[2025.09.05-04.31.03:245][908]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-04.31.03:246][908]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 39157.144531, Update Interval: 319.343842
+[2025.09.05-04.37.10:299][  9]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 39523.675781
+[2025.09.05-04.37.11:299][ 12]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-04.37.11:299][ 12]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 39524.339844, Update Interval: 311.460907
+[2025.09.05-04.39.23:378][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.09.05-04.39.23:380][407]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-04.43.02:013][ 64]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 39874.617188
+[2025.09.05-04.43.03:013][ 67]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-04.43.03:013][ 67]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 39875.281250, Update Interval: 334.415710
+[2025.09.05-04.49.24:163][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.09.05-04.49.24:164][209]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.034
+[2025.09.05-04.49.27:079][219]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 40258.839844
+[2025.09.05-04.49.28:080][222]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-04.49.28:080][222]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 40259.503906, Update Interval: 341.992859
+[2025.09.05-04.55.53:464][378]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 40644.324219
+[2025.09.05-04.55.54:462][381]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-04.55.54:462][381]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 40644.988281, Update Interval: 321.843323
+[2025.09.05-04.59.24:575][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-04.59.24:576][ 10]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-05.01.53:848][459]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 41003.886719
+[2025.09.05-05.01.54:849][462]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-05.01.54:849][462]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 41004.550781, Update Interval: 329.960632
+[2025.09.05-05.08.03:563][568]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 41372.781250
+[2025.09.05-05.08.04:565][571]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-05.08.04:565][571]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 41373.449219, Update Interval: 349.580994
+[2025.09.05-05.09.24:974][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.09.05-05.09.24:975][811]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-05.14.25:952][715]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 41754.328125
+[2025.09.05-05.14.26:954][718]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-05.14.26:954][718]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 41754.992188, Update Interval: 358.674286
+[2025.09.05-05.19.25:399][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.09.05-05.19.25:400][612]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-05.20.19:156][774]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.127 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-05.21.14:678][941]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42162.121094
+[2025.09.05-05.21.15:678][944]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-05.21.15:678][944]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42162.785156, Update Interval: 313.407379
+[2025.09.05-05.27.25:395][ 53]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42531.964844
+[2025.09.05-05.27.26:396][ 56]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-05.27.26:396][ 56]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42532.628906, Update Interval: 324.165161
+[2025.09.05-05.29.25:821][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.09.05-05.29.25:822][413]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.015
+[2025.09.05-05.33.29:810][146]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42895.558594
+[2025.09.05-05.33.30:810][149]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-05.33.30:810][149]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42896.222656, Update Interval: 303.314301
+[2025.09.05-05.39.12:519][174]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43237.500000
+[2025.09.05-05.39.13:519][177]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-05.39.13:519][177]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43238.164062, Update Interval: 307.476410
+[2025.09.05-05.39.26:260][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.09.05-05.39.26:262][214]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-05.45.03:235][226]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43587.468750
+[2025.09.05-05.45.04:235][229]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-05.45.04:235][229]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43588.132812, Update Interval: 309.034698
+[2025.09.05-05.49.26:993][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.09.05-05.49.26:994][ 16]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-05.51.03:962][308]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43947.464844
+[2025.09.05-05.51.04:962][311]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-05.51.04:962][311]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43948.128906, Update Interval: 339.555664
+[2025.09.05-05.57.35:019][481]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 44337.554688
+[2025.09.05-05.57.36:019][484]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-05.57.36:019][484]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 44338.222656, Update Interval: 339.150970
+[2025.09.05-05.59.27:441][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.09.05-05.59.27:442][817]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-06.04.08:072][660]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 44729.855469
+[2025.09.05-06.04.09:073][663]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-06.04.09:073][663]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 44730.523438, Update Interval: 348.145386
+[2025.09.05-06.09.27:856][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.09.05-06.09.27:858][618]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-06.10.33:821][817]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 45114.769531
+[2025.09.05-06.10.34:821][820]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-06.10.34:821][820]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 45115.433594, Update Interval: 318.111511
+[2025.09.05-06.16.39:538][914]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 45479.601562
+[2025.09.05-06.16.40:540][917]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-06.16.40:540][917]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 45480.269531, Update Interval: 326.049377
+[2025.09.05-06.19.28:325][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-06.19.28:326][419]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.033
+[2025.09.05-06.20.19:175][572]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.146 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-06.22.41:594][  0]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 45840.832031
+[2025.09.05-06.22.42:595][  3]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-06.22.42:595][  3]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 45841.496094, Update Interval: 355.583374
+[2025.09.05-06.29.28:717][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-06.29.28:719][220]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-06.29.33:977][237]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 46252.312500
+[2025.09.05-06.29.34:979][240]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-06.29.34:979][240]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 46252.980469, Update Interval: 310.129700
+[2025.09.05-06.35.42:687][343]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 46620.175781
+[2025.09.05-06.35.43:685][346]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-06.35.43:685][346]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 46620.839844, Update Interval: 332.447266
+[2025.09.05-06.39.29:134][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.09.05-06.39.29:136][ 21]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.015
+[2025.09.05-06.42.12:083][511]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 47008.695312
+[2025.09.05-06.42.13:085][514]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-06.42.13:085][514]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 47009.363281, Update Interval: 330.429382
+[2025.09.05-06.48.29:786][638]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 47383.507812
+[2025.09.05-06.48.30:787][641]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-06.48.30:787][641]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 47384.175781, Update Interval: 357.879578
+[2025.09.05-06.49.31:864][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.09.05-06.49.31:866][823]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-06.55.06:171][827]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 47778.988281
+[2025.09.05-06.55.07:169][830]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-06.55.07:169][830]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 47779.652344, Update Interval: 338.777435
+[2025.09.05-06.59.32:273][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.09.05-06.59.32:274][624]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-07.01.20:554][950]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 48152.496094
+[2025.09.05-07.01.21:554][953]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-07.01.21:554][953]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 48153.160156, Update Interval: 321.834167
+[2025.09.05-07.07.26:610][ 48]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 48517.710938
+[2025.09.05-07.07.27:610][ 51]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-07.07.27:610][ 51]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 48518.375000, Update Interval: 336.265137
+[2025.09.05-07.09.32:688][425]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.09.05-07.09.32:689][425]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-07.13.51:659][203]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 48901.824219
+[2025.09.05-07.13.52:660][206]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-07.13.52:660][206]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 48902.488281, Update Interval: 337.361969
+[2025.09.05-07.19.33:434][227]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-07.19.33:436][227]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-07.20.21:149][371]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.139 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-07.20.25:386][384]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 49294.582031
+[2025.09.05-07.20.26:386][387]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-07.20.26:386][387]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 49295.246094, Update Interval: 348.982208
+[2025.09.05-07.26.55:782][555]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 49684.089844
+[2025.09.05-07.26.56:781][558]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-07.26.56:781][558]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 49684.753906, Update Interval: 357.081207
+[2025.09.05-07.29.34:199][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.09.05-07.29.34:201][ 29]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-07.33.45:167][783]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 50092.550781
+[2025.09.05-07.33.46:167][786]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-07.33.46:167][786]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 50093.218750, Update Interval: 351.329681
+[2025.09.05-07.39.34:631][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.09.05-07.39.34:633][830]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-07.40.24:574][981]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 50490.992188
+[2025.09.05-07.40.25:574][984]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-07.40.25:574][984]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 50491.656250, Update Interval: 338.217102
+[2025.09.05-07.46.49:296][135]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 50874.921875
+[2025.09.05-07.46.50:296][138]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-07.46.50:296][138]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 50875.585938, Update Interval: 326.373474
+[2025.09.05-07.49.35:377][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.09.05-07.49.35:378][632]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-07.53.00:349][248]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 51245.140625
+[2025.09.05-07.53.01:349][251]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-07.53.01:349][251]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 51245.808594, Update Interval: 320.568878
+[2025.09.05-07.59.12:404][364]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 51616.367188
+[2025.09.05-07.59.13:405][367]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-07.59.13:405][367]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 51617.031250, Update Interval: 322.524475
+[2025.09.05-07.59.36:127][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.09.05-07.59.36:128][434]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-08.05.35:121][512]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 51998.175781
+[2025.09.05-08.05.36:120][515]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-08.05.36:120][515]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 51998.839844, Update Interval: 351.785645
+[2025.09.05-08.09.36:869][236]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.09.05-08.09.36:871][236]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-08.12.06:179][685]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 52388.300781
+[2025.09.05-08.12.07:179][688]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-08.12.07:180][688]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 52388.964844, Update Interval: 335.984985
+[2025.09.05-08.18.18:559][802]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 52759.792969
+[2025.09.05-08.18.19:558][805]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-08.18.19:558][805]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 52760.457031, Update Interval: 344.300049
+[2025.09.05-08.19.37:647][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.09.05-08.19.37:648][ 38]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.040
+[2025.09.05-08.20.21:159][169]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.149 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-08.24.49:959][976]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 53150.382812
+[2025.09.05-08.24.50:960][979]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-08.24.50:960][979]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 53151.050781, Update Interval: 358.304382
+[2025.09.05-08.29.38:069][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.09.05-08.29.38:072][839]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-08.31.20:687][148]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 53540.250000
+[2025.09.05-08.31.21:686][151]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-08.31.21:686][151]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 53540.914062, Update Interval: 338.358093
+[2025.09.05-08.37.34:736][270]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 53913.371094
+[2025.09.05-08.37.35:736][273]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-08.37.35:736][273]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 53914.035156, Update Interval: 358.421570
+[2025.09.05-08.39.38:817][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-08.39.38:818][641]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-08.44.31:456][520]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 54329.144531
+[2025.09.05-08.44.32:456][523]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-08.44.32:456][523]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 54329.808594, Update Interval: 355.433197
+[2025.09.05-08.49.39:231][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.09.05-08.49.39:233][442]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-08.51.21:517][750]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 54738.257812
+[2025.09.05-08.51.22:518][753]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-08.51.22:520][753]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 54738.929688, Update Interval: 358.590057
+[2025.09.05-08.58.02:917][954]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 55138.710938
+[2025.09.05-08.58.03:918][957]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-08.58.03:918][957]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 55139.378906, Update Interval: 316.476318
+[2025.09.05-08.59.39:645][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.09.05-08.59.39:646][243]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-09.04.15:299][ 71]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 55510.257812
+[2025.09.05-09.04.16:301][ 74]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-09.04.16:301][ 74]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 55510.925781, Update Interval: 313.530090
+[2025.09.05-09.09.40:394][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.09.05-09.09.40:395][ 45]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-09.10.06:351][124]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 55860.449219
+[2025.09.05-09.10.07:351][127]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-09.10.07:351][127]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 55861.117188, Update Interval: 349.339264
+[2025.09.05-09.16.30:407][276]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 56243.628906
+[2025.09.05-09.16.31:407][279]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-09.16.31:407][279]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 56244.296875, Update Interval: 312.204346
+[2025.09.05-09.19.41:157][847]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.09.05-09.19.41:158][847]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-09.20.21:157][968]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.147 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-09.22.23:455][335]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 56595.820312
+[2025.09.05-09.22.24:454][338]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-09.22.24:454][338]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 56596.488281, Update Interval: 339.735107
+[2025.09.05-09.28.50:840][497]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 56982.300781
+[2025.09.05-09.28.51:842][500]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-09.28.51:842][500]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 56982.968750, Update Interval: 331.583008
+[2025.09.05-09.29.41:585][648]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.09.05-09.29.41:586][648]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-09.34.55:559][591]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 57346.195312
+[2025.09.05-09.34.56:559][594]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-09.34.56:560][594]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 57346.859375, Update Interval: 310.149841
+[2025.09.05-09.39.42:002][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.09.05-09.39.42:003][449]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-09.41.01:948][690]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 57711.703125
+[2025.09.05-09.41.02:949][693]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-09.41.02:949][693]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 57712.367188, Update Interval: 301.779846
+[2025.09.05-09.46.59:667][763]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 58068.558594
+[2025.09.05-09.47.00:667][766]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-09.47.00:667][766]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 58069.222656, Update Interval: 301.058380
+[2025.09.05-09.49.42:434][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.09.05-09.49.42:436][250]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-09.52.33:716][765]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 58401.855469
+[2025.09.05-09.52.34:716][768]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-09.52.34:716][768]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 58402.519531, Update Interval: 311.933350
+[2025.09.05-09.58.34:438][847]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 58761.718750
+[2025.09.05-09.58.35:437][850]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-09.58.35:437][850]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 58762.382812, Update Interval: 318.800018
+[2025.09.05-09.59.42:828][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.09.05-09.59.42:830][ 51]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-10.04.50:824][976]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 59137.289062
+[2025.09.05-10.04.51:824][979]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-10.04.51:824][979]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 59137.953125, Update Interval: 336.191895
+[2025.09.05-10.09.43:596][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-10.09.43:599][853]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-10.11.04:213][ 96]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 59509.777344
+[2025.09.05-10.11.05:214][ 99]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-10.11.05:214][ 99]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 59510.441406, Update Interval: 344.527100
+[2025.09.05-10.17.47:265][305]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 59911.855469
+[2025.09.05-10.17.48:266][308]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-10.17.48:266][308]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 59912.523438, Update Interval: 329.204376
+[2025.09.05-10.19.44:009][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.09.05-10.19.44:011][654]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-10.20.22:095][769]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.084 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-10.24.02:309][430]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 60286.035156
+[2025.09.05-10.24.03:309][433]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-10.24.03:309][433]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 60286.699219, Update Interval: 308.573273
+[2025.09.05-10.29.44:425][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.09.05-10.29.44:426][455]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-10.29.59:378][501]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 60642.371094
+[2025.09.05-10.30.00:379][504]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-10.30.00:379][504]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 60643.039062, Update Interval: 310.470276
+[2025.09.05-10.35.48:091][547]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 60990.253906
+[2025.09.05-10.35.49:093][550]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-10.35.49:093][550]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 60990.917969, Update Interval: 324.641266
+[2025.09.05-10.39.44:853][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-10.39.44:854][256]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-10.41.57:813][656]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 61359.214844
+[2025.09.05-10.41.58:812][659]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-10.41.58:813][659]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 61359.878906, Update Interval: 326.942963
+[2025.09.05-10.47.57:199][734]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 61717.855469
+[2025.09.05-10.47.58:201][737]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-10.47.58:201][737]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 61718.519531, Update Interval: 308.150269
+[2025.09.05-10.49.45:282][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-10.49.45:283][ 57]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.011
+[2025.09.05-10.54.03:930][834]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 62083.789062
+[2025.09.05-10.54.04:929][837]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-10.54.04:929][837]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 62084.453125, Update Interval: 333.229156
+[2025.09.05-10.59.45:722][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.09.05-10.59.45:723][858]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-11.00.10:350][933]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 62449.414062
+[2025.09.05-11.00.11:351][936]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-11.00.11:351][936]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 62450.078125, Update Interval: 353.151642
+[2025.09.05-11.06.50:745][134]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 62848.867188
+[2025.09.05-11.06.51:745][137]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-11.06.51:745][137]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 62849.535156, Update Interval: 358.807953
+[2025.09.05-11.09.46:161][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.09.05-11.09.46:163][659]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-11.13.45:142][377]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 63262.394531
+[2025.09.05-11.13.46:143][380]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-11.13.46:143][380]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 63263.062500, Update Interval: 332.163452
+[2025.09.05-11.19.46:594][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.09.05-11.19.46:595][460]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-11.20.04:189][514]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 63640.566406
+[2025.09.05-11.20.05:188][517]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-11.20.05:188][517]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 63641.230469, Update Interval: 341.586365
+[2025.09.05-11.20.21:163][564]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.152 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-11.26.37:909][695]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 64033.417969
+[2025.09.05-11.26.38:910][698]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-11.26.38:910][698]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 64034.082031, Update Interval: 333.328033
+[2025.09.05-11.29.46:992][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.09.05-11.29.46:994][261]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-11.33.00:622][843]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 64415.246094
+[2025.09.05-11.33.01:620][846]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-11.33.01:620][846]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 64415.910156, Update Interval: 357.231354
+[2025.09.05-11.39.47:759][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-11.39.47:761][ 63]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.015
+[2025.09.05-11.39.56:014][ 89]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 64829.781250
+[2025.09.05-11.39.57:014][ 92]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-11.39.57:014][ 92]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 64830.445312, Update Interval: 339.227875
+[2025.09.05-11.46.12:404][218]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 65205.378906
+[2025.09.05-11.46.13:404][221]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-11.46.13:404][221]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 65206.042969, Update Interval: 323.584717
+[2025.09.05-11.49.48:504][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.09.05-11.49.48:505][865]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-11.52.07:444][283]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 65559.867188
+[2025.09.05-11.52.08:444][286]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-11.52.08:444][286]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 65560.539062, Update Interval: 341.771301
+[2025.09.05-11.58.44:173][473]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 65959.218750
+[2025.09.05-11.58.45:173][476]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-11.58.45:173][476]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 65959.890625, Update Interval: 329.596252
+[2025.09.05-11.59.48:919][666]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.09.05-11.59.48:921][666]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-12.05.11:223][634]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 66348.906250
+[2025.09.05-12.05.12:223][637]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-12.05.12:223][637]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 66349.578125, Update Interval: 317.501770
+[2025.09.05-12.09.49:332][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.09.05-12.09.49:334][467]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-12.11.03:940][692]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 66703.953125
+[2025.09.05-12.11.04:939][695]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-12.11.04:940][695]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 66704.625000, Update Interval: 308.111816
+[2025.09.05-12.16.59:662][759]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 67062.023438
+[2025.09.05-12.17.00:661][762]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-12.17.00:661][762]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 67062.695312, Update Interval: 357.711121
+[2025.09.05-12.19.49:742][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.09.05-12.19.49:744][268]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.011
+[2025.09.05-12.20.21:163][363]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.151 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-12.23.35:717][947]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 67460.609375
+[2025.09.05-12.23.36:718][950]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-12.23.36:718][950]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 67461.281250, Update Interval: 321.905579
+[2025.09.05-12.29.37:778][ 33]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 67825.000000
+[2025.09.05-12.29.38:776][ 36]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-12.29.38:776][ 36]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 67825.664062, Update Interval: 317.730652
+[2025.09.05-12.29.50:177][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.09.05-12.29.50:178][ 69]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-12.35.47:829][143]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 68197.460938
+[2025.09.05-12.35.48:827][146]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-12.35.48:828][146]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 68198.132812, Update Interval: 302.329163
+[2025.09.05-12.39.50:607][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.09.05-12.39.50:608][870]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.027
+[2025.09.05-12.41.47:206][221]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 68559.187500
+[2025.09.05-12.41.48:207][224]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-12.41.48:207][224]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 68559.859375, Update Interval: 359.791260
+[2025.09.05-12.48.28:599][425]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 68963.187500
+[2025.09.05-12.48.29:599][428]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-12.48.29:599][428]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 68963.859375, Update Interval: 329.955139
+[2025.09.05-12.49.51:006][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.09.05-12.49.51:008][671]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-12.54.55:987][587]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 69353.132812
+[2025.09.05-12.54.56:987][590]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-12.54.56:987][590]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 69353.804688, Update Interval: 313.788269
+[2025.09.05-12.59.51:434][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.09.05-12.59.51:436][472]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-13.01.07:709][702]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 69727.171875
+[2025.09.05-13.01.08:709][705]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-13.01.08:709][705]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 69727.843750, Update Interval: 356.586823
+[2025.09.05-13.07.49:768][908]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 70131.835938
+[2025.09.05-13.07.50:769][911]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-13.07.50:769][911]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 70132.507812, Update Interval: 310.378723
+[2025.09.05-13.09.51:852][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.09.05-13.09.51:854][273]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-13.13.44:152][971]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 70488.601562
+[2025.09.05-13.13.45:152][974]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-13.13.45:152][974]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 70489.265625, Update Interval: 338.002869
+[2025.09.05-13.19.52:285][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.09.05-13.19.52:287][ 74]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.015
+[2025.09.05-13.20.01:218][102]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 70868.125000
+[2025.09.05-13.20.02:218][105]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-13.20.02:218][105]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 70868.796875, Update Interval: 310.730316
+[2025.09.05-13.20.21:155][161]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.143 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-13.25.56:610][168]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 71225.828125
+[2025.09.05-13.25.57:611][171]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-13.25.57:611][171]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 71226.500000, Update Interval: 336.841949
+[2025.09.05-13.29.52:715][875]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.09.05-13.29.52:717][875]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-13.32.18:672][314]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 71610.437500
+[2025.09.05-13.32.19:672][317]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-13.32.19:672][317]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 71611.109375, Update Interval: 327.354950
+[2025.09.05-13.38.23:731][409]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 71977.789062
+[2025.09.05-13.38.24:731][412]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-13.38.24:731][412]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 71978.460938, Update Interval: 304.945831
+[2025.09.05-13.39.53:145][676]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-13.39.53:147][676]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-13.44.13:787][459]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 72330.039062
+[2025.09.05-13.44.14:789][462]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-13.44.14:789][462]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 72330.710938, Update Interval: 340.339355
+[2025.09.05-13.49.53:578][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.09.05-13.49.53:579][477]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-13.50.38:847][614]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 72717.570312
+[2025.09.05-13.50.39:845][617]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-13.50.39:845][617]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 72718.242188, Update Interval: 304.596100
+[2025.09.05-13.56.35:225][683]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 73076.320312
+[2025.09.05-13.56.36:225][686]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-13.56.36:225][686]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 73076.992188, Update Interval: 323.410736
+[2025.09.05-13.59.53:970][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-13.59.53:971][278]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.011
+[2025.09.05-14.02.51:955][813]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 73455.507812
+[2025.09.05-14.02.52:955][816]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-14.02.52:956][816]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 73456.179688, Update Interval: 337.988220
+[2025.09.05-14.09.26:674][997]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 73852.812500
+[2025.09.05-14.09.27:673][  0]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-14.09.27:673][  0]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 73853.484375, Update Interval: 344.166382
+[2025.09.05-14.09.54:421][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-14.09.54:423][ 79]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-14.16.04:071][189]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 74252.765625
+[2025.09.05-14.16.05:071][192]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-14.16.05:071][192]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 74253.437500, Update Interval: 304.303101
+[2025.09.05-14.19.54:852][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.09.05-14.19.54:854][880]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-14.20.21:178][960]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.165 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-14.21.59:128][254]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 74610.085938
+[2025.09.05-14.22.00:128][257]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-14.22.00:128][257]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 74610.757812, Update Interval: 312.850739
+[2025.09.05-14.28.12:507][374]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 74985.968750
+[2025.09.05-14.28.13:507][377]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-14.28.13:507][377]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 74986.640625, Update Interval: 333.811462
+[2025.09.05-14.29.55:249][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.09.05-14.29.55:251][681]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-14.34.43:564][547]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 75379.585938
+[2025.09.05-14.34.44:564][550]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-14.34.44:564][550]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 75380.250000, Update Interval: 304.085205
+[2025.09.05-14.39.55:680][482]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.09.05-14.39.55:682][482]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.014
+[2025.09.05-14.40.41:614][621]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 75739.976562
+[2025.09.05-14.40.42:615][624]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-14.40.42:615][624]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 75740.648438, Update Interval: 338.295837
+[2025.09.05-14.47.20:349][817]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 76141.250000
+[2025.09.05-14.47.21:350][820]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-14.47.21:350][820]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 76141.921875, Update Interval: 305.879700
+[2025.09.05-14.49.56:111][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.09.05-14.49.56:112][283]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-14.53.03:737][847]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 76486.890625
+[2025.09.05-14.53.04:736][850]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-14.53.04:736][850]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 76487.562500, Update Interval: 347.255463
+[2025.09.05-14.59.30:127][  6]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 76875.718750
+[2025.09.05-14.59.31:126][  9]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-14.59.31:126][  9]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 76876.390625, Update Interval: 320.338135
+[2025.09.05-14.59.56:520][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.09.05-14.59.56:521][ 84]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-15.05.27:508][ 78]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 77235.453125
+[2025.09.05-15.05.28:509][ 81]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-15.05.28:509][ 81]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 77236.125000, Update Interval: 349.203766
+[2025.09.05-15.09.57:289][886]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-15.09.57:291][886]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-15.12.02:236][262]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 77632.718750
+[2025.09.05-15.12.03:237][265]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-15.12.03:238][265]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 77633.390625, Update Interval: 330.411072
+[2025.09.05-15.18.27:624][418]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 78020.640625
+[2025.09.05-15.18.28:624][421]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-15.18.28:624][421]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 78021.312500, Update Interval: 307.472748
+[2025.09.05-15.19.57:704][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-15.19.57:705][687]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.015
+[2025.09.05-15.20.21:162][758]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.149 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2089 files in 2957 folders with total size 86 MiB.
+[2025.09.05-15.24.07:672][438]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 78362.914062
+[2025.09.05-15.24.08:673][441]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-15.24.08:673][441]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 78363.585938, Update Interval: 337.078156
+[2025.09.05-15.29.58:100][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.09.05-15.29.58:101][488]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-15.30.20:719][557]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 78738.367188
+[2025.09.05-15.30.21:721][560]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-15.30.21:721][560]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 78739.039062, Update Interval: 329.881897
+[2025.09.05-15.36.48:767][721]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 79128.960938
+[2025.09.05-15.36.49:769][724]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-15.36.49:769][724]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 79129.632812, Update Interval: 341.350128
+[2025.09.05-15.39.58:850][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-15.39.58:852][290]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.012
+[2025.09.05-15.43.21:809][900]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 79524.656250
+[2025.09.05-15.43.22:808][903]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-15.43.22:808][903]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 79525.328125, Update Interval: 341.628479
+[2025.09.05-15.49.59:597][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.09.05-15.49.59:598][ 92]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-15.50.03:862][106]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 79929.289062
+[2025.09.05-15.50.04:862][109]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-15.50.04:862][109]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 79929.960938, Update Interval: 355.422211
+[2025.09.05-15.56.59:262][352]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 80347.390625
+[2025.09.05-15.57.00:262][355]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-15.57.00:262][355]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 80348.062500, Update Interval: 320.828888
+[2025.09.05-16.00.00:024][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.09.05-16.00.00:025][893]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-16.02.59:650][433]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 80710.078125
+[2025.09.05-16.03.00:649][436]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-16.03.00:649][436]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 80710.750000, Update Interval: 317.404694
+[2025.09.05-16.09.06:703][534]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 81079.523438
+[2025.09.05-16.09.07:703][537]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.05-16.09.07:703][537]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 81080.195312, Update Interval: 326.036560
+[2025.09.05-16.10.00:775][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.09.05-16.10.00:777][695]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CGT215' took 0.013
+[2025.09.05-16.12.39:861][173]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=SAMSUNG (NVIDIA High Definition Audio), InstanceID=1
+[2025.09.05-16.12.40:065][173]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.05-16.12.40:398][174]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7a26fd56-f251-435e-b56d-8b9face42c19}, Name=SAMSUNG (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=80.17
+[2025.09.05-16.12.40:398][174]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.05-16.12.40:401][174]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.05-16.12.44:716][187]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.05-16.12.44:733][187]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.05-16.12.45:068][188]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=256.23
+[2025.09.05-16.12.45:068][188]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.05-16.12.45:069][188]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.05-16.12.57:585][193]LogAutomationController: Ignoring very large delta of 12.38 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.05-16.12.59:012][195]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=SAMSUNG (NVIDIA High Definition Audio), InstanceID=1
+[2025.09.05-16.12.59:302][195]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.05-16.12.59:638][196]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7a26fd56-f251-435e-b56d-8b9face42c19}, Name=SAMSUNG (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=60.67
+[2025.09.05-16.12.59:638][196]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.05-16.12.59:640][196]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.05-16.13.08:181][222]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.05-16.13.08:505][222]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18724
+[2025.09.05-16.13.08:968][224]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=208.47
+[2025.09.05-16.13.08:968][224]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.05-16.13.08:970][224]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.05-16.13.24:600][270]LogViewport: Scene viewport resized to 2038x1388, mode Windowed.
+[2025.09.05-16.13.24:934][270]LogViewport: Scene viewport resized to 2032x1318, mode Windowed.
