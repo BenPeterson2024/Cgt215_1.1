@@ -1920,3 +1920,44 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.09.25-18.26.16:159][939]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 560 ms)
 [2025.09.25-18.26.16:163][939]AssetCheck: New page: Asset Save: lec6_1
 [2025.09.25-18.26.16:163][939]LogContentValidation: Display: Validating /Script/Engine.World /Game/Lec6/lec6_1.lec6_1
+[2025.09.25-18.44.49:991][149]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [1097 Seconds] waiting for h/w. InstanceID=1
+[2025.09.25-18.44.52:178][149]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.25-18.44.52:550][151]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=198.47
+[2025.09.25-18.44.52:550][151]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.25-18.44.52:552][151]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.25-18.44.54:868][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B24B5CB3A-4411-2F6A-AEF0-63B7099AFB73%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.25-18.44.54:868][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.25-18.44.54:868][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0x5ec4e880f90 [can pipeline])
+[2025.09.25-18.44.54:868][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: libcurl info message cache 1 (Re-using existing connection! (#5) with host api.epicgames.dev)
+[2025.09.25-18.44.54:869][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: libcurl info message cache 2 (Connected to api.epicgames.dev (52.200.249.172) port 443 (#5))
+[2025.09.25-18.44.54:869][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2025.09.25-18.44.54:869][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2025.09.25-18.44.54:869][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: libcurl info message cache 5 (We are completely uploaded and fine)
+[2025.09.25-18.44.54:869][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: libcurl info message cache 6 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2025.09.25-18.44.54:869][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: libcurl info message cache 7 (Connection died, retrying a fresh connect)
+[2025.09.25-18.44.54:869][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: libcurl info message cache 8 (Closing connection 5)
+[2025.09.25-18.44.54:869][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: libcurl info message cache 9 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2025.09.25-18.44.54:869][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: libcurl info message cache 10 (Issue another request to this URL: 'https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B24B5CB3A-4411-2F6A-AEF0-63B7099AFB73%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents')
+[2025.09.25-18.44.54:869][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: libcurl info message cache 11 (Found bundle for host api.epicgames.dev: 0x5ec4e880f90 [can pipeline])
+[2025.09.25-18.44.54:869][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: libcurl info message cache 12 (Could not resolve host: api.epicgames.dev)
+[2025.09.25-18.44.54:869][159]LogEOSSDK: Warning: LogHttp: 000005EBCB5BCC00: libcurl info message cache 13 (Closing connection 7)
+[2025.09.25-18.44.54:869][159]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B24B5CB3A-4411-2F6A-AEF0-63B7099AFB73%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.25-18.44.55:530][161]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.25-18.44.55:531][161]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.25-18.44.55:531][161]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.25-18.44.55:531][161]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0x5ec4e880f90 [can pipeline])
+[2025.09.25-18.44.55:531][161]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2025.09.25-18.44.55:531][161]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2025.09.25-18.44.55:531][161]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: libcurl info message cache 3 (Closing connection 6)
+[2025.09.25-18.44.55:531][161]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.25-18.44.56:864][165]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.25-18.44.57:198][166]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.25-18.44.57:704][166]LogUdpMessaging: Display: Added local interface '100.69.45.189' to multicast group '230.0.0.1:6666'
+[2025.09.25-18.44.57:717][167]LogHttp: Warning: 000005EC72B1F500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.25-18.44.57:717][167]LogHttp: Warning: 000005EC72B1F500: libcurl info message cache 0 (Too old connection (1125 seconds idle), disconnect it)
+[2025.09.25-18.44.57:717][167]LogHttp: Warning: 000005EC72B1F500: libcurl info message cache 1 (Connection 0 seems to be dead)
+[2025.09.25-18.44.57:717][167]LogHttp: Warning: 000005EC72B1F500: libcurl info message cache 2 (Closing connection)
+[2025.09.25-18.44.57:717][167]LogHttp: Warning: 000005EC72B1F500: libcurl info message cache 3 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.09.25-18.44.57:717][167]LogHttp: Warning: 000005EC72B1F500: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.09.25-18.44.57:717][167]LogHttp: Warning: 000005EC72B1F500: libcurl info message cache 5 (Closing connection)
+[2025.09.25-18.44.57:717][167]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B82828A8A-4053-D35C-EE94-7FB2D8B733B4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0e620c5e48b35d35098638a04f048be8%7C782fa93dd84d4ce0bf766bbc29efbd90%7C9137105b-4043-4fcf-9417-19a0ba444a48&AppEnvironment=datacollector-binary&UploadType=eteventstream
