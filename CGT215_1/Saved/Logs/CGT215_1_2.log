@@ -1961,3 +1961,840 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.09.25-18.44.57:717][167]LogHttp: Warning: 000005EC72B1F500: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
 [2025.09.25-18.44.57:717][167]LogHttp: Warning: 000005EC72B1F500: libcurl info message cache 5 (Closing connection)
 [2025.09.25-18.44.57:717][167]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B82828A8A-4053-D35C-EE94-7FB2D8B733B4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0e620c5e48b35d35098638a04f048be8%7C782fa93dd84d4ce0bf766bbc29efbd90%7C9137105b-4043-4fcf-9417-19a0ba444a48&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.09.25-18.45.40:699][279]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3276.371826
+[2025.09.25-18.45.41:898][282]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-18.45.41:898][282]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3277.172363, Update Interval: 307.394012
+[2025.09.25-18.46.15:474][366]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Crusher ANC 2), InstanceID=1
+[2025.09.25-18.46.15:667][366]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.25-18.46.15:993][367]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e2a0de41-67b6-4fbe-a871-efe51bb54a43}, Name=Headphones (Crusher ANC 2)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=132.55
+[2025.09.25-18.46.15:993][367]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.25-18.46.15:994][367]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.25-18.51.27:539][278]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3623.212891
+[2025.09.25-18.51.28:536][281]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-18.51.28:536][281]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3623.877930, Update Interval: 341.558899
+[2025.09.25-18.57.56:971][446]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4012.644775
+[2025.09.25-18.57.57:970][449]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-18.57.57:970][449]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4013.312256, Update Interval: 352.362427
+[2025.09.25-19.04.25:818][612]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4401.492188
+[2025.09.25-19.04.26:821][615]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-19.04.26:821][615]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4402.159668, Update Interval: 342.018494
+[2025.09.25-19.10.45:665][747]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4781.338867
+[2025.09.25-19.10.46:666][750]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-19.10.46:666][750]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4782.005859, Update Interval: 322.531799
+[2025.09.25-19.11.21:421][853]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.307 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.25-19.17.05:740][872]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5161.416016
+[2025.09.25-19.17.06:938][875]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-19.17.06:938][875]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5162.214844, Update Interval: 345.830872
+[2025.09.25-19.23.40:889][ 45]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5556.568848
+[2025.09.25-19.23.41:888][ 48]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-19.23.41:888][ 48]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5557.236328, Update Interval: 329.129303
+[2025.09.25-19.29.50:235][108]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5925.913574
+[2025.09.25-19.29.51:435][111]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-19.29.51:435][111]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5926.713867, Update Interval: 351.196014
+[2025.09.25-19.36.33:425][207]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6329.096191
+[2025.09.25-19.36.34:424][210]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-19.36.34:425][210]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6329.763672, Update Interval: 330.436707
+[2025.09.25-19.42.44:931][179]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6700.612793
+[2025.09.25-19.42.46:129][182]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-19.42.46:129][182]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6701.412109, Update Interval: 353.232208
+[2025.09.25-19.43.18:609][264]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.25-19.43.18:931][264]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.25-19.43.19:333][265]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=121.85
+[2025.09.25-19.43.19:333][265]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.25-19.43.19:335][265]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.25-19.44.07:218][385]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Crusher ANC 2), InstanceID=1
+[2025.09.25-19.44.07:385][385]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.25-19.44.07:735][386]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e2a0de41-67b6-4fbe-a871-efe51bb54a43}, Name=Headphones (Crusher ANC 2)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=119.47
+[2025.09.25-19.44.07:735][386]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.25-19.44.07:735][386]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.25-19.49.37:732][211]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7113.416504
+[2025.09.25-19.49.38:928][214]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-19.49.38:928][214]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7114.215820, Update Interval: 318.001648
+[2025.09.25-19.55.49:104][238]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7484.783691
+[2025.09.25-19.55.50:305][241]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-19.55.50:305][241]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7485.585938, Update Interval: 354.953461
+[2025.09.25-20.02.19:504][214]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7875.180664
+[2025.09.25-20.02.20:704][217]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-20.02.20:704][217]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7875.980469, Update Interval: 310.332947
+[2025.09.25-20.07.19:507][964]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.25-20.07.19:673][964]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.25-22.03.28:501][965]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-6967493ms], ThreadID=7040
+[2025.09.25-22.03.29:458][965]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.25-22.03.30:469][965]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=6971427.00
+[2025.09.25-22.03.30:471][965]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.25-22.03.30:473][965]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.25-22.03.30:572][966]Could not fetch the local adapter addresses
+[2025.09.25-22.03.30:572][966]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.25-22.03.30:887][967]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.25-22.03.30:887][967]LogHttp: Warning: 000005EC72B1AA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.25-22.03.30:887][967]LogHttp: Warning: 000005EC72B1AA00: libcurl info message cache 0 (Too old connection (6982 seconds idle), disconnect it)
+[2025.09.25-22.03.30:887][967]LogHttp: Warning: 000005EC72B1AA00: libcurl info message cache 1 (Connection 3 seems to be dead)
+[2025.09.25-22.03.30:887][967]LogHttp: Warning: 000005EC72B1AA00: libcurl info message cache 2 (Closing connection)
+[2025.09.25-22.03.30:887][967]LogHttp: Warning: 000005EC72B1AA00: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.09.25-22.03.30:887][967]LogHttp: Warning: 000005EC72B1AA00: libcurl info message cache 4 (Send failure: Connection was reset)
+[2025.09.25-22.03.30:887][967]LogHttp: Warning: 000005EC72B1AA00: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.09.25-22.03.30:887][967]LogHttp: Warning: 000005EC72B1AA00: libcurl info message cache 6 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.09.25-22.03.30:887][967]LogHttp: Warning: 000005EC72B1AA00: libcurl info message cache 7 (Closing connection)
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 0 (Connection 24 seems to be dead!)
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 1 (Closing connection 24)
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 2 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 3 (Could not resolve host: api.epicgames.dev)
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 4 (Closing connection 25)
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B6C00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B24B5CB3A-4411-2F6A-AEF0-63B7099AFB73%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B6C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B6C00: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0x5ec4e880840 [serially])
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B6C00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B6C00: libcurl info message cache 2 (Closing connection 27)
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0x5ec4e880840 [serially])
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: libcurl info message cache 2 (Closing connection 26)
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B24B5CB3A-4411-2F6A-AEF0-63B7099AFB73%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.25-22.03.30:887][967]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.25-22.03.30:887][967]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B82828A8A-4053-D35C-EE94-7FB2D8B733B4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0e620c5e48b35d35098638a04f048be8%7C782fa93dd84d4ce0bf766bbc29efbd90%7C9137105b-4043-4fcf-9417-19a0ba444a48&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.09.25-22.03.32:137][971]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.25-22.03.32:137][971]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.25-22.03.32:366][971]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Crusher ANC 2), InstanceID=1
+[2025.09.25-22.03.32:537][971]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.25-22.03.32:558][972]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.25-22.03.32:558][972]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.25-22.03.32:558][972]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 5 (Could not resolve host: api.epicgames.dev)
+[2025.09.25-22.03.32:558][972]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 6 (Closing connection 28)
+[2025.09.25-22.03.32:558][972]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.25-22.03.32:558][972]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.25-22.03.32:558][972]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: libcurl info message cache 3 (Found bundle for host api.epicgames.dev: 0x5ec4e880c30 [serially])
+[2025.09.25-22.03.32:558][972]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.09.25-22.03.32:558][972]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: libcurl info message cache 5 (Closing connection 29)
+[2025.09.25-22.03.32:558][972]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.25-22.03.32:558][972]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.25-22.03.32:801][972]Could not fetch the local adapter addresses
+[2025.09.25-22.03.32:801][972]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.25-22.03.32:860][972]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e2a0de41-67b6-4fbe-a871-efe51bb54a43}, Name=Headphones (Crusher ANC 2)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=112.54
+[2025.09.25-22.03.32:860][972]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.25-22.03.32:862][972]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.25-22.03.32:867][973]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.25-22.03.33:700][975]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.25-22.03.33:700][975]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.25-22.03.34:101][976]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.25-22.03.34:101][976]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.25-22.03.34:101][976]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 7 (Could not resolve host: api.epicgames.dev)
+[2025.09.25-22.03.34:101][976]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 8 (Closing connection 30)
+[2025.09.25-22.03.34:101][976]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.25-22.03.34:101][976]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.25-22.03.34:101][976]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: libcurl info message cache 6 (Found bundle for host api.epicgames.dev: 0x5ec4e8801b0 [serially])
+[2025.09.25-22.03.34:101][976]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: libcurl info message cache 7 (Could not resolve host: api.epicgames.dev)
+[2025.09.25-22.03.34:101][976]LogEOSSDK: Warning: LogHttp: 000005EBCB5B7800: libcurl info message cache 8 (Closing connection 31)
+[2025.09.25-22.03.34:101][976]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.25-22.03.34:101][976]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.25-22.03.34:101][976]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.09.25-22.03.35:124][978]Could not fetch the local adapter addresses
+[2025.09.25-22.03.35:126][978]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.25-22.03.35:141][979]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.25-22.03.35:301][979]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.25-22.03.35:700][980]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.25-22.03.38:238][984]LogUdpMessaging: Display: Added local interface '100.69.45.189' to multicast group '230.0.0.1:6666'
+[2025.09.25-22.04.19:056][ 88]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15195.540039
+[2025.09.25-22.04.20:257][ 91]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-22.04.20:257][ 91]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15196.339844, Update Interval: 325.377350
+[2025.09.25-22.07.27:955][592]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.145 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.25-22.10.40:632][170]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15577.123047
+[2025.09.25-22.10.41:633][173]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-22.10.41:633][173]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15577.790039, Update Interval: 350.899384
+[2025.09.25-22.17.23:688][379]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15980.172852
+[2025.09.25-22.17.24:689][382]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-22.17.24:689][382]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15980.837891, Update Interval: 316.659454
+[2025.09.25-22.23.27:733][471]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16344.219727
+[2025.09.25-22.23.28:736][474]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-22.23.28:736][474]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16344.889648, Update Interval: 317.364410
+[2025.09.25-22.29.14:257][510]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.25-22.29.14:433][510]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.25-22.29.14:769][511]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=57.14
+[2025.09.25-22.29.14:769][511]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.25-22.29.14:770][511]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.25-22.29.35:111][573]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16711.585938
+[2025.09.25-22.29.36:110][576]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-22.29.36:110][576]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16712.250000, Update Interval: 322.128967
+[2025.09.25-22.35.41:178][671]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17077.705078
+[2025.09.25-22.35.42:179][674]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-22.35.42:179][674]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17078.373047, Update Interval: 338.896454
+[2025.09.25-22.41.47:878][770]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Crusher ANC 2), InstanceID=1
+[2025.09.25-22.41.47:899][770]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.25-22.41.48:235][771]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e2a0de41-67b6-4fbe-a871-efe51bb54a43}, Name=Headphones (Crusher ANC 2)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=196.83
+[2025.09.25-22.41.48:235][771]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.25-22.41.48:237][771]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.25-22.41.54:906][792]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17451.474609
+[2025.09.25-22.41.55:906][795]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-22.41.55:906][795]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17452.140625, Update Interval: 327.100433
+[2025.09.25-22.48.09:287][915]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17825.890625
+[2025.09.25-22.48.10:288][918]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-22.48.10:288][918]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17826.556641, Update Interval: 308.443237
+[2025.09.25-22.54.06:676][987]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18183.300781
+[2025.09.25-22.54.07:679][990]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-22.54.07:679][990]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18183.970703, Update Interval: 314.321106
+[2025.09.25-22.54.41:854][ 92]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.25-22.54.42:011][ 92]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.25-22.54.42:346][ 93]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=115.94
+[2025.09.25-22.54.42:346][ 93]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.25-22.54.42:347][ 93]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.25-23.00.02:742][ 55]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18539.513672
+[2025.09.25-23.00.03:742][ 58]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-23.00.03:742][ 58]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18540.181641, Update Interval: 306.837372
+[2025.09.25-23.06.10:140][157]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18907.035156
+[2025.09.25-23.06.11:140][160]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-23.06.11:140][160]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18907.703125, Update Interval: 315.963623
+[2025.09.25-23.07.27:996][390]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.185 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.25-23.12.18:216][261]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19275.289062
+[2025.09.25-23.12.19:217][264]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-23.12.19:217][264]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19275.957031, Update Interval: 305.621521
+[2025.09.25-23.18.04:957][301]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19622.171875
+[2025.09.25-23.18.05:958][304]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-23.18.05:958][304]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19622.839844, Update Interval: 333.994568
+[2025.09.26-00.23.37:284][198]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.26-00.23.37:661][198]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [3636 Seconds] waiting for h/w. InstanceID=1
+[2025.09.26-00.23.37:678][198]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.26-00.23.37:923][199]LogEOSSDK: Warning: LogHttp: 000005EBCB5BDE00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B24B5CB3A-4411-2F6A-AEF0-63B7099AFB73%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.26-00.23.37:923][199]LogEOSSDK: Warning: LogHttp: 000005EBCB5BDE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-00.23.37:923][199]LogEOSSDK: Warning: LogHttp: 000005EBCB5BDE00: libcurl info message cache 0 (Connection 55 seems to be dead!)
+[2025.09.26-00.23.37:923][199]LogEOSSDK: Warning: LogHttp: 000005EBCB5BDE00: libcurl info message cache 1 (Closing connection 55)
+[2025.09.26-00.23.37:923][199]LogEOSSDK: Warning: LogHttp: 000005EBCB5BDE00: libcurl info message cache 2 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2025.09.26-00.23.37:923][199]LogEOSSDK: Warning: LogHttp: 000005EBCB5BDE00: libcurl info message cache 3 (Could not resolve host: api.epicgames.dev)
+[2025.09.26-00.23.37:923][199]LogEOSSDK: Warning: LogHttp: 000005EBCB5BDE00: libcurl info message cache 4 (Closing connection 56)
+[2025.09.26-00.23.37:923][199]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B24B5CB3A-4411-2F6A-AEF0-63B7099AFB73%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.26-00.23.37:926][199]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=204.10
+[2025.09.26-00.23.37:926][199]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.26-00.23.37:929][199]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.26-00.23.37:935][200]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.26-00.23.37:935][200]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-00.23.37:935][200]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.09.26-00.23.37:935][200]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: libcurl info message cache 1 (Closing connection 57)
+[2025.09.26-00.23.37:935][200]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.26-00.23.37:935][200]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-00.23.37:935][200]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0x5ec4e8809c0 [serially])
+[2025.09.26-00.23.37:935][200]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.09.26-00.23.37:935][200]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: libcurl info message cache 2 (Closing connection 58)
+[2025.09.26-00.23.37:935][200]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.26-00.23.37:935][200]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.26-00.23.38:262][201]LogHttp: Warning: 000005EC72B19100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-00.23.38:262][201]LogHttp: Warning: 000005EC72B19100: libcurl info message cache 0 (Too old connection (3691 seconds idle), disconnect it)
+[2025.09.26-00.23.38:262][201]LogHttp: Warning: 000005EC72B19100: libcurl info message cache 1 (Connection 6 seems to be dead)
+[2025.09.26-00.23.38:262][201]LogHttp: Warning: 000005EC72B19100: libcurl info message cache 2 (Closing connection)
+[2025.09.26-00.23.38:262][201]LogHttp: Warning: 000005EC72B19100: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.09.26-00.23.38:262][201]LogHttp: Warning: 000005EC72B19100: libcurl info message cache 4 (Send failure: Connection was reset)
+[2025.09.26-00.23.38:262][201]LogHttp: Warning: 000005EC72B19100: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.09.26-00.23.38:262][201]LogHttp: Warning: 000005EC72B19100: libcurl info message cache 6 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.09.26-00.23.38:262][201]LogHttp: Warning: 000005EC72B19100: libcurl info message cache 7 (Closing connection)
+[2025.09.26-00.23.38:262][201]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B82828A8A-4053-D35C-EE94-7FB2D8B733B4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0e620c5e48b35d35098638a04f048be8%7C782fa93dd84d4ce0bf766bbc29efbd90%7C9137105b-4043-4fcf-9417-19a0ba444a48&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.09.26-00.23.38:786][202]Could not fetch the local adapter addresses
+[2025.09.26-00.23.38:786][202]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.26-00.23.38:928][203]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.26-00.23.39:261][204]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.26-00.23.39:261][204]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.26-00.23.39:595][205]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.26-00.23.39:595][205]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-00.23.39:595][205]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2025.09.26-00.23.39:595][205]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: libcurl info message cache 3 (Closing connection 59)
+[2025.09.26-00.23.39:595][205]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.26-00.23.39:595][205]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-00.23.39:595][205]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: libcurl info message cache 3 (Found bundle for host api.epicgames.dev: 0x5ec4e8808d0 [serially])
+[2025.09.26-00.23.39:595][205]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.09.26-00.23.39:595][205]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: libcurl info message cache 5 (Closing connection 60)
+[2025.09.26-00.23.39:595][205]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.26-00.23.39:595][205]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.26-00.23.40:595][208]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.26-00.23.40:595][208]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.26-00.23.40:808][208]Could not fetch the local adapter addresses
+[2025.09.26-00.23.40:808][208]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.26-00.23.40:928][209]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.26-00.23.40:928][209]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.26-00.23.40:928][209]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-00.23.40:928][209]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.09.26-00.23.40:928][209]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: libcurl info message cache 5 (Closing connection 61)
+[2025.09.26-00.23.40:928][209]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.26-00.23.40:928][209]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-00.23.40:928][209]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: libcurl info message cache 6 (Found bundle for host api.epicgames.dev: 0x5ec4e8802a0 [serially])
+[2025.09.26-00.23.40:928][209]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: libcurl info message cache 7 (Could not resolve host: api.epicgames.dev)
+[2025.09.26-00.23.40:928][209]LogEOSSDK: Warning: LogHttp: 000005EBCB5BEA00: libcurl info message cache 8 (Closing connection 62)
+[2025.09.26-00.23.40:928][209]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.26-00.23.40:928][209]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.26-00.23.40:928][209]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.09.26-00.23.41:929][212]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.26-00.23.42:826][214]Could not fetch the local adapter addresses
+[2025.09.26-00.23.42:826][214]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.26-00.23.42:929][215]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.26-00.23.45:236][220]LogUdpMessaging: Display: Added local interface '100.69.45.189' to multicast group '230.0.0.1:6666'
+[2025.09.26-00.23.54:246][248]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.26-00.23.54:246][248]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-00.23.54:246][248]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2025.09.26-00.23.54:246][248]LogEOSSDK: Warning: LogHttp: 000005EBCB5BD200: libcurl info message cache 7 (Closing connection 63)
+[2025.09.26-00.23.54:246][248]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.26-00.23.55:579][252]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.26-00.23.55:913][253]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.26-00.24.28:253][350]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23606.445312
+[2025.09.26-00.24.29:253][353]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-00.24.29:253][353]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23607.111328, Update Interval: 305.445709
+[2025.09.26-00.30.29:982][435]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23968.492188
+[2025.09.26-00.30.30:982][438]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-00.30.30:982][438]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23969.158203, Update Interval: 340.830109
+[2025.09.26-00.37.10:051][635]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24368.828125
+[2025.09.26-00.37.11:047][638]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-00.37.11:047][638]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24369.492188, Update Interval: 356.943878
+[2025.09.26-00.44.07:117][886]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24786.212891
+[2025.09.26-00.44.08:120][889]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-00.44.08:120][889]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24786.882812, Update Interval: 302.133240
+[2025.09.26-00.50.01:856][950]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25141.201172
+[2025.09.26-00.50.02:857][953]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-00.50.02:857][953]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25141.869141, Update Interval: 300.924713
+[2025.09.26-00.55.46:914][985]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25486.525391
+[2025.09.26-00.55.47:915][988]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-00.55.47:915][988]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25487.193359, Update Interval: 313.645447
+[2025.09.26-01.02.01:316][108]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25861.212891
+[2025.09.26-01.02.02:317][111]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-01.02.02:317][111]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25861.880859, Update Interval: 354.803314
+[2025.09.26-01.07.57:886][177]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.066 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-01.08.41:717][309]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26261.933594
+[2025.09.26-01.08.42:714][312]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-01.08.42:714][312]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26262.597656, Update Interval: 313.899963
+[2025.09.26-01.14.34:124][366]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26614.576172
+[2025.09.26-01.14.35:124][369]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-01.14.35:124][369]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26615.242188, Update Interval: 342.077087
+[2025.09.26-01.20.59:531][522]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27000.304688
+[2025.09.26-01.21.00:531][525]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-01.21.00:531][525]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27000.972656, Update Interval: 304.720612
+[2025.09.26-01.26.39:252][541]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27340.267578
+[2025.09.26-01.26.40:254][544]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-01.26.40:254][544]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27340.935547, Update Interval: 311.807007
+[2025.09.26-01.32.40:315][624]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27701.568359
+[2025.09.26-01.32.41:316][627]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-01.32.41:316][627]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27702.238281, Update Interval: 301.367828
+[2025.09.26-01.38.31:369][677]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28052.869141
+[2025.09.26-01.38.32:367][680]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-01.38.32:367][680]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28053.537109, Update Interval: 344.907990
+[2025.09.26-01.44.53:435][823]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28435.203125
+[2025.09.26-01.44.54:434][826]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-01.44.54:435][826]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28435.869141, Update Interval: 344.203003
+[2025.09.26-01.51.34:518][ 26]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28836.583984
+[2025.09.26-01.51.35:519][ 29]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-01.51.35:519][ 29]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28837.251953, Update Interval: 314.141663
+[2025.09.26-01.57.39:246][120]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 29201.587891
+[2025.09.26-01.57.40:246][123]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-01.57.40:246][123]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 29202.253906, Update Interval: 333.756531
+[2025.09.26-02.03.49:978][232]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 29572.562500
+[2025.09.26-02.03.50:978][235]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-02.03.50:978][235]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 29573.228516, Update Interval: 334.738007
+[2025.09.26-02.07.57:895][975]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.074 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-02.09.56:372][331]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 29939.160156
+[2025.09.26-02.09.57:373][334]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-02.09.57:373][334]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 29939.826172, Update Interval: 321.066925
+[2025.09.26-02.16.14:441][465]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30317.470703
+[2025.09.26-02.16.15:442][468]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-02.16.15:442][468]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30318.140625, Update Interval: 332.417969
+[2025.09.26-02.22.37:859][615]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30701.246094
+[2025.09.26-02.22.38:858][618]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-02.22.38:858][618]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30701.914062, Update Interval: 355.167694
+[2025.09.26-02.29.23:919][833]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 31107.621094
+[2025.09.26-02.29.24:919][836]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-02.29.24:919][836]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 31108.289062, Update Interval: 305.808289
+[2025.09.26-02.35.28:652][927]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 31472.628906
+[2025.09.26-02.35.29:652][930]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-02.35.29:652][930]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 31473.294922, Update Interval: 339.597778
+[2025.09.26-02.42.09:043][128]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 31873.332031
+[2025.09.26-02.42.10:046][131]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-02.42.10:046][131]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 31874.000000, Update Interval: 310.034485
+[2025.09.26-02.48.05:102][196]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 32229.636719
+[2025.09.26-02.48.06:102][199]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-02.48.06:102][199]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 32230.304688, Update Interval: 319.812622
+[2025.09.26-02.54.18:502][316]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 32603.318359
+[2025.09.26-02.54.19:502][319]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-02.54.19:502][319]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 32603.986328, Update Interval: 358.401428
+[2025.09.26-03.00.52:233][497]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 32996.500000
+[2025.09.26-03.00.53:235][500]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-03.00.53:235][500]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 32997.164062, Update Interval: 333.370148
+[2025.09.26-03.07.10:315][627]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 33372.132812
+[2025.09.26-03.07.11:315][630]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-03.07.11:315][630]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 33372.800781, Update Interval: 349.046295
+[2025.09.26-03.08.00:200][776]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.020 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-03.13.37:377][788]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 33758.074219
+[2025.09.26-03.13.38:378][791]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-03.13.38:378][791]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 33758.738281, Update Interval: 304.757233
+[2025.09.26-03.19.38:437][871]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 34118.175781
+[2025.09.26-03.19.39:437][874]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-03.19.39:437][874]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 34118.839844, Update Interval: 333.428741
+[2025.09.26-03.25.52:828][994]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 34491.539062
+[2025.09.26-03.25.53:828][997]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-03.25.53:828][997]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 34492.203125, Update Interval: 316.745514
+[2025.09.26-03.31.42:119][ 41]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Soundcore Motion Boom), InstanceID=1
+[2025.09.26-03.31.42:216][ 41]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.26-03.31.42:547][ 42]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{9a044ee0-cc96-47d2-9f75-7d06adbcd39d}, Name=Speakers (Soundcore Motion Boom)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=116.61
+[2025.09.26-03.31.42:547][ 42]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.26-03.31.42:549][ 42]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.26-03.32.03:806][106]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.26-03.32.03:887][106]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.26-03.32.04:218][107]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=44.67
+[2025.09.26-03.32.04:218][107]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.26-03.32.04:218][107]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.26-03.32.08:220][120]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 34865.917969
+[2025.09.26-03.32.09:220][123]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-03.32.09:220][123]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 34866.582031, Update Interval: 333.513000
+[2025.09.26-03.32.13:850][136]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Soundcore Motion Boom), InstanceID=1
+[2025.09.26-03.32.13:884][136]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.26-03.32.14:219][137]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{9a044ee0-cc96-47d2-9f75-7d06adbcd39d}, Name=Speakers (Soundcore Motion Boom)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=168.89
+[2025.09.26-03.32.14:219][137]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.26-03.32.14:220][137]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.26-03.38.27:600][258]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35244.871094
+[2025.09.26-03.38.28:600][261]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-03.38.28:600][261]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35245.539062, Update Interval: 300.148315
+[2025.09.26-03.44.24:968][330]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35601.820312
+[2025.09.26-03.44.25:967][333]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-03.44.25:967][333]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35602.484375, Update Interval: 324.562531
+[2025.09.26-03.46.32:872][713]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.26-03.46.32:974][713]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.26-03.46.33:309][714]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=97.56
+[2025.09.26-03.46.33:309][714]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.26-03.46.33:310][714]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.26-03.48.37:243][ 86]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Crusher ANC 2), InstanceID=1
+[2025.09.26-03.48.37:345][ 86]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.26-03.48.37:678][ 87]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e2a0de41-67b6-4fbe-a871-efe51bb54a43}, Name=Headphones (Crusher ANC 2)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=156.56
+[2025.09.26-03.48.37:678][ 87]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.26-03.48.37:679][ 87]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.26-03.50.24:701][409]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35961.140625
+[2025.09.26-03.50.25:700][412]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-03.50.25:700][412]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35961.804688, Update Interval: 313.845032
+[2025.09.26-03.50.34:408][438]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.26-03.50.34:698][438]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.26-03.50.35:032][439]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=32.73
+[2025.09.26-03.50.35:032][439]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.26-03.50.35:033][439]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.26-03.50.43:176][464]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Crusher ANC 2), InstanceID=1
+[2025.09.26-03.50.43:364][464]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.26-03.50.43:699][465]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e2a0de41-67b6-4fbe-a871-efe51bb54a43}, Name=Headphones (Crusher ANC 2)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=99.01
+[2025.09.26-03.50.43:699][465]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.26-03.50.43:700][465]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.26-03.52.11:253][728]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.26-03.52.11:556][728]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.26-04.52.43:502][729]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-3630694ms], ThreadID=7040
+[2025.09.26-04.52.44:808][729]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.26-04.52.46:432][729]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [3636 Seconds] waiting for h/w. InstanceID=1
+[2025.09.26-04.52.47:709][729]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Crusher ANC 2), InstanceID=1
+[2025.09.26-04.52.47:966][729]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=3634007.00
+[2025.09.26-04.52.47:966][729]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.26-04.52.47:967][729]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.26-04.52.48:133][730]Could not fetch the local adapter addresses
+[2025.09.26-04.52.48:133][730]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.09.26-04.52.48:249][730]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.26-04.52.48:254][731]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.09.26-04.52.48:254][731]LogHttp: Warning: 000005EC72B1E100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-04.52.48:254][731]LogHttp: Warning: 000005EC72B1E100: libcurl info message cache 0 (Too old connection (3640 seconds idle), disconnect it)
+[2025.09.26-04.52.48:254][731]LogHttp: Warning: 000005EC72B1E100: libcurl info message cache 1 (Connection 11 seems to be dead)
+[2025.09.26-04.52.48:254][731]LogHttp: Warning: 000005EC72B1E100: libcurl info message cache 2 (Closing connection)
+[2025.09.26-04.52.48:254][731]LogHttp: Warning: 000005EC72B1E100: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.09.26-04.52.48:254][731]LogHttp: Warning: 000005EC72B1E100: libcurl info message cache 4 (Send failure: Connection was reset)
+[2025.09.26-04.52.48:254][731]LogHttp: Warning: 000005EC72B1E100: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.09.26-04.52.48:254][731]LogHttp: Warning: 000005EC72B1E100: libcurl info message cache 6 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.09.26-04.52.48:254][731]LogHttp: Warning: 000005EC72B1E100: libcurl info message cache 7 (Closing connection)
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B3000: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B3000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B3000: libcurl info message cache 0 (Connection 109 seems to be dead!)
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B3000: libcurl info message cache 1 (Closing connection 109)
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B3000: libcurl info message cache 2 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B3000: libcurl info message cache 3 (Could not resolve host: api.epicgames.dev)
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B3000: libcurl info message cache 4 (Closing connection 110)
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B0000: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B24B5CB3A-4411-2F6A-AEF0-63B7099AFB73%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B0000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B0000: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0x5ec4e880ea0 [serially])
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B0000: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B0000: libcurl info message cache 2 (Closing connection 112)
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0x5ec4e880ea0 [serially])
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 2 (Closing connection 111)
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B24B5CB3A-4411-2F6A-AEF0-63B7099AFB73%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.26-04.52.48:254][731]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.26-04.52.48:254][731]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B82828A8A-4053-D35C-EE94-7FB2D8B733B4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0e620c5e48b35d35098638a04f048be8%7C782fa93dd84d4ce0bf766bbc29efbd90%7C9137105b-4043-4fcf-9417-19a0ba444a48&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.09.26-04.52.48:584][731]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e2a0de41-67b6-4fbe-a871-efe51bb54a43}, Name=Headphones (Crusher ANC 2)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=25.85
+[2025.09.26-04.52.48:584][731]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.26-04.52.48:585][731]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.26-04.52.49:588][735]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.26-04.52.49:588][735]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.26-04.52.50:188][736]LogUdpMessaging: Display: Added local interface '100.69.45.189' to multicast group '230.0.0.1:6666'
+[2025.09.26-04.53.01:922][772]LogEOSSDK: Warning: LogHttp: 000005EBCB5B3000: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.26-04.53.01:922][772]LogEOSSDK: Warning: LogHttp: 000005EBCB5B3000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-04.53.01:922][772]LogEOSSDK: Warning: LogHttp: 000005EBCB5B3000: libcurl info message cache 5 (Could not resolve host: api.epicgames.dev)
+[2025.09.26-04.53.01:922][772]LogEOSSDK: Warning: LogHttp: 000005EBCB5B3000: libcurl info message cache 6 (Closing connection 113)
+[2025.09.26-04.53.01:922][772]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.26-04.53.01:922][772]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.26-04.53.01:922][772]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 3 (Found bundle for host api.epicgames.dev: 0x5ec4e8800c0 [serially])
+[2025.09.26-04.53.01:922][772]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.09.26-04.53.01:922][772]LogEOSSDK: Warning: LogHttp: 000005EBCB5B9600: libcurl info message cache 5 (Closing connection 114)
+[2025.09.26-04.53.01:922][772]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.26-04.53.01:922][772]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.26-04.53.03:255][776]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.26-04.53.03:255][776]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.26-04.53.03:589][777]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.09.26-04.53.03:589][777]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=6B64FFF449C00F36386E0A8C5146197D
+[2025.09.26-04.53.25:591][843]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 39742.574219
+[2025.09.26-04.53.26:591][846]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-04.53.26:591][846]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 39743.238281, Update Interval: 310.365906
+[2025.09.26-04.59.07:665][869]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 40084.328125
+[2025.09.26-04.59.08:664][872]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-04.59.08:664][872]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 40084.996094, Update Interval: 336.953644
+[2025.09.26-05.05.23:049][995]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 40459.515625
+[2025.09.26-05.05.24:049][998]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-05.05.24:049][998]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 40460.179688, Update Interval: 327.832886
+[2025.09.26-05.08.29:185][553]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.129 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-05.11.46:773][146]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 40843.000000
+[2025.09.26-05.11.47:773][149]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-05.11.47:773][149]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 40843.667969, Update Interval: 325.034943
+[2025.09.26-05.18.02:828][274]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 41218.855469
+[2025.09.26-05.18.03:827][277]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-05.18.03:827][277]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 41219.519531, Update Interval: 307.763916
+[2025.09.26-05.23.54:458][328]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 41570.269531
+[2025.09.26-05.23.55:459][331]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-05.23.55:459][331]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 41570.937500, Update Interval: 352.188477
+[2025.09.26-05.30.46:179][563]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 41981.750000
+[2025.09.26-05.30.47:179][566]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-05.30.47:179][566]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 41982.414062, Update Interval: 348.742340
+[2025.09.26-05.37.34:230][786]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42389.582031
+[2025.09.26-05.37.35:228][789]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-05.37.35:228][789]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42390.246094, Update Interval: 330.916473
+[2025.09.26-05.43.54:281][926]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42769.406250
+[2025.09.26-05.43.55:281][929]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-05.43.55:281][929]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42770.074219, Update Interval: 310.951874
+[2025.09.26-05.50.02:328][ 30]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43137.214844
+[2025.09.26-05.50.03:330][ 33]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-05.50.03:330][ 33]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43137.882812, Update Interval: 331.654419
+[2025.09.26-05.56.25:721][180]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43520.460938
+[2025.09.26-05.56.26:720][183]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-05.56.26:720][183]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43521.125000, Update Interval: 306.868500
+[2025.09.26-06.02.10:427][214]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43864.929688
+[2025.09.26-06.02.11:428][217]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-06.02.11:428][217]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43865.597656, Update Interval: 333.804138
+[2025.09.26-06.08.27:141][344]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 44241.394531
+[2025.09.26-06.08.28:144][347]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-06.08.28:144][347]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 44242.062500, Update Interval: 335.622437
+[2025.09.26-06.08.29:208][350]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.151 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-06.14.36:898][453]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 44611.003906
+[2025.09.26-06.14.37:854][456]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-06.14.37:854][456]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 44611.628906, Update Interval: 310.179138
+[2025.09.26-06.20.28:904][509]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 44962.843750
+[2025.09.26-06.20.30:014][512]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-06.20.30:014][512]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 44963.511719, Update Interval: 337.982727
+[2025.09.26-06.26.55:962][670]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 45349.671875
+[2025.09.26-06.26.56:962][673]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-06.26.56:962][673]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 45350.339844, Update Interval: 316.718048
+[2025.09.26-06.32.49:008][729]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 45702.578125
+[2025.09.26-06.32.50:009][732]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-06.32.50:009][732]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 45703.242188, Update Interval: 358.774994
+[2025.09.26-06.39.32:405][939]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 46105.800781
+[2025.09.26-06.39.33:405][942]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-06.39.33:405][942]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 46106.468750, Update Interval: 349.344757
+[2025.09.26-06.46.02:120][108]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 46495.339844
+[2025.09.26-06.46.03:122][111]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-06.46.03:122][111]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 46496.003906, Update Interval: 353.651550
+[2025.09.26-06.52.35:442][287]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 46888.390625
+[2025.09.26-06.52.36:442][290]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-06.52.36:442][290]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 46889.058594, Update Interval: 359.859009
+[2025.09.26-06.59.34:828][545]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 47307.613281
+[2025.09.26-06.59.35:829][548]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-06.59.35:829][548]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 47308.281250, Update Interval: 347.070526
+[2025.09.26-07.06.22:543][768]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 47715.089844
+[2025.09.26-07.06.23:546][771]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-07.06.23:546][771]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 47715.757812, Update Interval: 312.717072
+[2025.09.26-07.08.29:209][147]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.152 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-07.12.10:588][812]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 48062.937500
+[2025.09.26-07.12.11:589][815]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-07.12.11:589][815]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 48063.605469, Update Interval: 358.350159
+[2025.09.26-07.19.09:302][ 68]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 48481.496094
+[2025.09.26-07.19.10:304][ 71]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-07.19.10:304][ 71]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 48482.164062, Update Interval: 314.597626
+[2025.09.26-07.25.15:349][166]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 48847.414062
+[2025.09.26-07.25.16:350][169]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-07.25.16:350][169]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 48848.082031, Update Interval: 322.698456
+[2025.09.26-07.31.35:068][305]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 49226.941406
+[2025.09.26-07.31.36:065][308]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-07.31.36:065][308]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 49227.605469, Update Interval: 338.596161
+[2025.09.26-07.37.50:786][432]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 49602.457031
+[2025.09.26-07.37.51:785][435]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-07.37.51:785][435]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 49603.125000, Update Interval: 324.071777
+[2025.09.26-07.43.56:168][528]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 49967.683594
+[2025.09.26-07.43.57:168][531]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-07.43.57:168][531]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 49968.410156, Update Interval: 354.962616
+[2025.09.26-07.50.39:879][739]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 50371.292969
+[2025.09.26-07.50.40:880][742]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-07.50.40:880][742]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 50371.960938, Update Interval: 346.737274
+[2025.09.26-07.57.20:584][941]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 50771.847656
+[2025.09.26-07.57.21:584][944]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-07.57.21:584][944]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 50772.511719, Update Interval: 330.229797
+[2025.09.26-08.03.39:300][ 77]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 51150.402344
+[2025.09.26-08.03.40:300][ 80]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-08.03.40:300][ 80]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 51151.066406, Update Interval: 342.434143
+[2025.09.26-08.08.29:171][946]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.113 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-08.10.03:002][228]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 51533.957031
+[2025.09.26-08.10.04:003][231]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-08.10.04:003][231]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 51534.621094, Update Interval: 306.612152
+[2025.09.26-08.15.56:428][287]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 51887.289062
+[2025.09.26-08.15.57:428][290]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-08.15.57:428][290]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 51888.031250, Update Interval: 359.998169
+[2025.09.26-08.22.37:473][490]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 52288.175781
+[2025.09.26-08.22.38:476][493]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-08.22.38:476][493]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 52288.843750, Update Interval: 323.564575
+[2025.09.26-08.28.32:190][554]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 52642.773438
+[2025.09.26-08.28.33:190][557]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-08.28.33:190][557]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 52643.441406, Update Interval: 334.294861
+[2025.09.26-08.35.06:909][738]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 53037.378906
+[2025.09.26-08.35.08:046][741]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-08.35.08:046][741]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 53038.042969, Update Interval: 333.339020
+[2025.09.26-08.41.27:198][878]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 53417.535156
+[2025.09.26-08.41.28:197][881]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-08.41.28:197][881]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 53418.203125, Update Interval: 301.400787
+[2025.09.26-08.47.29:245][964]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 53779.437500
+[2025.09.26-08.47.30:244][967]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-08.47.30:244][967]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 53780.105469, Update Interval: 352.475952
+[2025.09.26-08.54.19:965][196]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 54189.957031
+[2025.09.26-08.54.20:963][199]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-08.54.20:963][199]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 54190.625000, Update Interval: 336.849274
+[2025.09.26-09.00.57:013][387]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 54586.746094
+[2025.09.26-09.00.58:012][390]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-09.00.58:012][390]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 54587.414062, Update Interval: 341.033356
+[2025.09.26-09.07.21:411][540]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 54970.914062
+[2025.09.26-09.07.22:410][543]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-09.07.22:410][543]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 54971.582031, Update Interval: 323.831909
+[2025.09.26-09.08.29:170][743]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.112 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-09.13.36:459][665]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 55345.742188
+[2025.09.26-09.13.37:459][668]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-09.13.37:459][668]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 55346.406250, Update Interval: 351.496338
+[2025.09.26-09.20.17:513][868]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 55746.644531
+[2025.09.26-09.20.18:513][871]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-09.20.18:513][871]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 55747.308594, Update Interval: 348.255249
+[2025.09.26-09.26.55:225][ 61]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 56144.179688
+[2025.09.26-09.26.56:224][ 64]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-09.26.56:224][ 64]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 56144.847656, Update Interval: 319.179047
+[2025.09.26-09.33.03:608][166]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 56512.335938
+[2025.09.26-09.33.04:608][169]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-09.33.04:608][169]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 56513.003906, Update Interval: 327.492310
+[2025.09.26-09.39.24:659][309]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 56893.222656
+[2025.09.26-09.39.25:658][312]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-09.39.25:658][312]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 56893.890625, Update Interval: 336.054565
+[2025.09.26-09.45.55:384][481]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 57283.695312
+[2025.09.26-09.45.56:385][484]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-09.45.56:385][484]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 57284.363281, Update Interval: 329.729919
+[2025.09.26-09.52.20:773][637]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 57668.910156
+[2025.09.26-09.52.21:771][640]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-09.52.21:771][640]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 57669.574219, Update Interval: 359.837036
+[2025.09.26-09.59.20:835][897]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 58088.785156
+[2025.09.26-09.59.21:834][900]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-09.59.21:834][900]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 58089.449219, Update Interval: 310.768768
+[2025.09.26-10.05.05:552][931]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 58433.320312
+[2025.09.26-10.05.06:547][934]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-10.05.06:547][934]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 58433.984375, Update Interval: 320.215454
+[2025.09.26-10.08.30:107][544]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.049 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-10.11.18:662][ 50]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 58806.148438
+[2025.09.26-10.11.19:595][ 53]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-10.11.19:595][ 53]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 58806.746094, Update Interval: 305.165558
+[2025.09.26-10.16.16:083][942]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.09.26-10.16.16:300][942]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.26-10.16.16:633][943]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{df9b3c0f-dfba-4d77-8a59-a3c0e7a972c8}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=63.10
+[2025.09.26-10.16.16:633][943]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.26-10.16.16:635][943]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.26-10.16.59:312][ 72]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 59146.656250
+[2025.09.26-10.17.00:311][ 75]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-10.17.00:311][ 75]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 59147.320312, Update Interval: 354.125793
+[2025.09.26-10.23.51:397][308]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 59558.519531
+[2025.09.26-10.23.52:396][311]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-10.23.52:396][311]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 59559.183594, Update Interval: 338.587006
+[2025.09.26-10.30.08:053][435]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 59935.007812
+[2025.09.26-10.30.09:050][438]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-10.30.09:050][438]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 59935.675781, Update Interval: 331.901611
+[2025.09.26-10.36.13:943][532]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 60300.820312
+[2025.09.26-10.36.14:788][535]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-10.36.14:788][535]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 60301.332031, Update Interval: 318.237854
+[2025.09.26-10.42.06:848][591]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 60653.625000
+[2025.09.26-10.42.07:905][594]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-10.42.07:905][594]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 60654.292969, Update Interval: 326.212341
+[2025.09.26-10.48.15:258][696]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 61021.917969
+[2025.09.26-10.48.16:259][699]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-10.48.16:259][699]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 61022.585938, Update Interval: 308.271118
+[2025.09.26-10.54.15:984][777]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 61382.597656
+[2025.09.26-10.54.16:984][780]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-10.54.16:984][780]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 61383.265625, Update Interval: 345.640442
+[2025.09.26-11.00.47:738][952]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 61774.277344
+[2025.09.26-11.00.48:736][955]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-11.00.48:736][955]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 61774.941406, Update Interval: 307.011322
+[2025.09.26-11.06.42:163][ 15]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 62128.609375
+[2025.09.26-11.06.43:164][ 18]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-11.06.43:164][ 18]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 62129.277344, Update Interval: 324.789581
+[2025.09.26-11.08.29:199][335]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.140 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-11.12.47:462][110]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 62493.769531
+[2025.09.26-11.12.48:463][113]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-11.12.48:463][113]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 62494.437500, Update Interval: 352.908112
+[2025.09.26-11.19.23:862][299]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 62890.023438
+[2025.09.26-11.19.25:016][302]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-11.19.25:018][302]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 62890.691406, Update Interval: 312.786652
+[2025.09.26-11.25.21:295][371]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 63247.312500
+[2025.09.26-11.25.22:291][374]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-11.25.22:293][374]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 63247.976562, Update Interval: 316.057007
+[2025.09.26-11.31.09:041][414]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 63594.953125
+[2025.09.26-11.31.10:040][417]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-11.31.10:040][417]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 63595.617188, Update Interval: 352.063965
+[2025.09.26-11.38.00:458][648]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 64006.175781
+[2025.09.26-11.38.01:459][651]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-11.38.01:459][651]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 64006.843750, Update Interval: 322.200378
+[2025.09.26-11.44.00:192][727]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 64365.757812
+[2025.09.26-11.44.01:192][730]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-11.44.01:193][730]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 64366.425781, Update Interval: 349.271515
+[2025.09.26-11.50.25:933][884]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 64751.390625
+[2025.09.26-11.50.26:934][887]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-11.50.26:934][887]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 64752.054688, Update Interval: 326.049377
+[2025.09.26-11.56.39:000][  3]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 65124.242188
+[2025.09.26-11.56.39:999][  6]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-11.56.40:000][  6]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 65124.906250, Update Interval: 330.238953
+[2025.09.26-12.02.49:068][113]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 65494.160156
+[2025.09.26-12.02.50:066][116]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-12.02.50:066][116]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 65494.824219, Update Interval: 320.828888
+[2025.09.26-12.08.29:202][132]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.143 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-12.08.59:124][222]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 65865.507812
+[2025.09.26-12.09.00:123][225]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-12.09.00:123][225]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 65866.179688, Update Interval: 300.816681
+[2025.09.26-12.14.56:528][294]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 66224.367188
+[2025.09.26-12.14.57:526][297]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-12.14.57:526][297]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 66225.031250, Update Interval: 300.891754
+[2025.09.26-12.20.34:594][308]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 66563.898438
+[2025.09.26-12.20.35:592][311]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-12.20.35:592][311]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 66564.570312, Update Interval: 345.503113
+[2025.09.26-12.27.16:677][514]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 66967.789062
+[2025.09.26-12.27.17:676][517]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-12.27.17:676][517]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 66968.460938, Update Interval: 324.313477
+[2025.09.26-12.33.26:408][623]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 67339.171875
+[2025.09.26-12.33.27:410][626]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-12.33.27:410][626]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 67339.843750, Update Interval: 305.694763
+[2025.09.26-12.39.23:815][695]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 67697.960938
+[2025.09.26-12.39.24:816][698]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-12.39.24:816][698]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 67698.632812, Update Interval: 332.311768
+[2025.09.26-12.45.31:551][798]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 68067.109375
+[2025.09.26-12.45.32:550][801]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-12.45.32:550][801]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 68067.781250, Update Interval: 329.504700
+[2025.09.26-12.51.42:960][912]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 68440.085938
+[2025.09.26-12.51.43:961][915]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-12.51.43:963][915]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 68440.757812, Update Interval: 312.370972
+[2025.09.26-12.57.30:024][953]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 68788.437500
+[2025.09.26-12.57.31:028][956]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-12.57.31:028][956]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 68789.109375, Update Interval: 314.934540
+[2025.09.26-13.03.26:430][ 22]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 69146.343750
+[2025.09.26-13.03.27:429][ 25]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-13.03.27:431][ 25]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 69147.015625, Update Interval: 341.974548
+[2025.09.26-13.08.29:182][929]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.123 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-13.09.53:970][184]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 69535.312500
+[2025.09.26-13.09.55:011][187]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-13.09.55:011][187]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 69535.976562, Update Interval: 318.349548
+[2025.09.26-13.16.03:041][291]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 69905.765625
+[2025.09.26-13.16.04:041][294]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-13.16.04:041][294]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 69906.437500, Update Interval: 319.772339
+[2025.09.26-13.21.59:776][361]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 70263.968750
+[2025.09.26-13.22.00:777][364]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-13.22.00:777][364]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 70264.640625, Update Interval: 310.082092
+[2025.09.26-13.27.50:608][413]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 70616.093750
+[2025.09.26-13.27.51:610][416]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-13.27.51:610][416]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 70616.765625, Update Interval: 301.098663
+[2025.09.26-13.33.35:342][447]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 70962.125000
+[2025.09.26-13.33.36:342][450]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-13.33.36:342][450]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 70962.789062, Update Interval: 329.078033
+[2025.09.26-13.39.58:711][596]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 71347.078125
+[2025.09.26-13.39.59:712][599]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-13.39.59:714][599]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 71347.750000, Update Interval: 344.704742
+[2025.09.26-13.46.42:466][807]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 71752.437500
+[2025.09.26-13.46.43:465][810]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-13.46.43:465][810]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 71753.101562, Update Interval: 318.417297
+[2025.09.26-13.52.50:209][910]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 72121.648438
+[2025.09.26-13.52.51:208][913]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-13.52.51:208][913]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 72122.320312, Update Interval: 307.557007
+[2025.09.26-13.58.43:625][970]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 72476.484375
+[2025.09.26-13.58.44:623][973]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-13.58.44:623][973]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 72477.156250, Update Interval: 333.643005
+[2025.09.26-14.05.18:032][153]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 72872.476562
+[2025.09.26-14.05.19:033][156]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-14.05.19:033][156]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 72873.140625, Update Interval: 354.631195
+[2025.09.26-14.08.29:223][726]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.163 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-14.11.58:322][353]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 73274.304688
+[2025.09.26-14.11.59:322][356]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-14.11.59:322][356]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 73274.976562, Update Interval: 345.697205
+[2025.09.26-14.18.24:053][510]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 73661.625000
+[2025.09.26-14.18.25:055][513]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-14.18.25:056][513]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 73662.289062, Update Interval: 340.493164
+[2025.09.26-14.25.04:458][711]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 74063.664062
+[2025.09.26-14.25.05:459][714]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-14.25.05:459][714]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 74064.335938, Update Interval: 330.409241
+[2025.09.26-14.31.11:186][811]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 74431.929688
+[2025.09.26-14.31.12:183][814]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-14.31.12:183][814]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 74432.601562, Update Interval: 329.645691
+[2025.09.26-14.37.19:583][916]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 74801.945312
+[2025.09.26-14.37.20:584][919]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-14.37.20:584][919]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 74802.617188, Update Interval: 346.380188
+[2025.09.26-14.43.53:662][ 98]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 75197.812500
+[2025.09.26-14.43.54:664][101]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-14.43.54:664][101]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 75198.484375, Update Interval: 352.421021
+[2025.09.26-14.50.25:186][272]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 75590.812500
+[2025.09.26-14.50.26:076][275]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-14.50.26:076][275]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 75591.367188, Update Interval: 333.124786
+[2025.09.26-14.56.33:518][377]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 75960.296875
+[2025.09.26-14.56.34:517][380]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-14.56.34:517][380]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 75960.960938, Update Interval: 343.344208
+[2025.09.26-15.03.04:297][549]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 76352.375000
+[2025.09.26-15.03.05:293][552]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-15.03.05:293][552]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 76353.046875, Update Interval: 351.377289
+[2025.09.26-15.08.29:190][523]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.129 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-15.09.39:734][735]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 76749.070312
+[2025.09.26-15.09.40:733][738]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-15.09.40:733][738]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 76749.742188, Update Interval: 338.845184
+[2025.09.26-15.16.08:166][900]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 77138.593750
+[2025.09.26-15.16.09:168][903]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-15.16.09:168][903]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 77139.257812, Update Interval: 337.413239
+[2025.09.26-15.22.21:916][ 21]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 77513.929688
+[2025.09.26-15.22.22:915][ 24]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-15.22.22:915][ 24]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 77514.601562, Update Interval: 321.163971
+[2025.09.26-15.28.19:310][ 93]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 77872.867188
+[2025.09.26-15.28.20:310][ 96]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-15.28.20:310][ 96]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 77873.539062, Update Interval: 333.271271
+[2025.09.26-15.34.25:050][190]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 78240.234375
+[2025.09.26-15.34.26:048][193]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-15.34.26:048][193]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 78240.898438, Update Interval: 325.360870
+[2025.09.26-15.40.46:125][333]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 78623.226562
+[2025.09.26-15.40.47:125][336]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-15.40.47:125][336]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 78623.890625, Update Interval: 324.752960
+[2025.09.26-15.47.02:524][462]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 79001.375000
+[2025.09.26-15.47.03:524][465]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-15.47.03:524][465]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 79002.039062, Update Interval: 316.265747
+[2025.09.26-15.52.57:922][528]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 79358.460938
+[2025.09.26-15.52.58:922][531]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-15.52.58:922][531]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 79359.226562, Update Interval: 349.059113
+[2025.09.26-15.59.40:317][735]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 79762.812500
+[2025.09.26-15.59.41:318][738]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-15.59.41:318][738]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 79763.484375, Update Interval: 332.276978
+[2025.09.26-16.05.45:725][831]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 80129.789062
+[2025.09.26-16.05.46:779][834]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-16.05.46:779][834]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 80130.453125, Update Interval: 303.962524
+[2025.09.26-16.08.30:166][324]LogDerivedDataCache: C:/Users/Nicholas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.104 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5098 files in 7015 folders with total size 217 MiB.
+[2025.09.26-16.11.50:123][924]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 80495.695312
+[2025.09.26-16.11.51:122][927]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-16.11.51:124][927]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 80496.367188, Update Interval: 342.873627
+[2025.09.26-16.18.11:855][ 69]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 80879.257812
+[2025.09.26-16.18.12:854][ 72]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-16.18.12:854][ 72]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 80879.929688, Update Interval: 300.377197
+[2025.09.26-16.23.55:917][101]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 81224.898438
+[2025.09.26-16.23.56:916][104]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-16.23.56:916][104]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 81225.562500, Update Interval: 316.705231
+[2025.09.26-16.30.11:414][226]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 81602.187500
+[2025.09.26-16.30.12:413][229]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-16.30.12:413][229]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 81602.859375, Update Interval: 330.191345
+[2025.09.26-16.33.44:704][865]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Soundcore Motion Boom), InstanceID=1
+[2025.09.26-16.33.44:784][865]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7040
+[2025.09.26-16.33.45:117][866]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{9a044ee0-cc96-47d2-9f75-7d06adbcd39d}, Name=Speakers (Soundcore Motion Boom)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=201.04
+[2025.09.26-16.33.45:117][866]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.26-16.33.45:118][866]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.26-16.36.16:833][317]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 81969.242188
+[2025.09.26-16.36.17:967][320]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-16.36.17:967][320]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 81969.914062, Update Interval: 307.146820
